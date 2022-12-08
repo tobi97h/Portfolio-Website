@@ -1,0 +1,31 @@
+#hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d0717;
+}
+
+#hero-section::before {
+  @include base-before;
+  @include bc-attr;
+  background-size: 240%;
+  background-image: url("@/assets/images/blur-bg.png");
+}
+
+@media only screen and (min-width: 460px) {
+  #hero-section::before {
+    background-size: 160%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hero-section::before {
+    background-size: 140%;
+  }
+}
+
+
+@media only screen and (min-width: 991px) {
+  #hero-section::before {
+    background-size: 100%;
+  }
+}
