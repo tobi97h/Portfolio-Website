@@ -1,31 +1,55 @@
 #hero-section {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #0d0717;
-}
+  background-color: #2b303b;
+  padding: 6rem 0.938rem 2.188rem;
 
-#hero-section::before {
-  @include base-before;
-  @include bc-attr;
-  background-size: 240%;
-  background-image: url("@/assets/images/blur-bg.png");
-}
+  .container {
+    display: flex;
+    flex-direction: column;
 
-@media only screen and (min-width: 460px) {
-  #hero-section::before {
-    background-size: 160%;
+      .image-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+
+        img {
+          width: 9.375rem;
+          height: 9.375rem;
+          border-radius: 50%;
+        }
+      }
+  }
+
+  .text-wrapper {
+    width: 100%;
   }
 }
-
-@media only screen and (min-width: 768px) {
-  #hero-section::before {
-    background-size: 140%;
-  }
-}
-
 
 @media only screen and (min-width: 991px) {
-  #hero-section::before {
-    background-size: 100%;
+  #hero-section {
+    padding: 8rem 0.938rem 4.188rem;
+    .container {
+      width: 100%;
+      flex-direction: row;
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+        font-weight: 600;
+      }
+
+      .image-wrapper {
+        width: auto;
+        margin-right: 35px;
+      }
+    }
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  #hero-section .container {
+    max-width: 961px;
+  }
+}
+
+

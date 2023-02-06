@@ -6,10 +6,18 @@ const isOpen: Ref<boolean> = ref(false)
 
 <template>
   <nav id="navbar">
-    <div class="open-button" @click="isOpen = true"></div>
-    <div class="nav-link-wrapper" :class="{ open : isOpen}">
-      <div class="close-button" @click="isOpen = false"></div>
+    <p class="logo">Tobias Hübner</p>
+    <div class="link-container">
+      <div class="open-button" @click="isOpen = true"></div>
+      <ul :class="{ open : isOpen }">
+        <li class="close-button" @click="isOpen = false"></li>
+        <li>Über mich</li>
+        <li>Tech Stack</li>
+        <li>Stats</li>
+        <li>LinkedIn</li>
+      </ul>
     </div>
+    <div class="nav-underlay" :class="{ open : isOpen }" @click="isOpen = false"></div>
   </nav>
 </template>
 

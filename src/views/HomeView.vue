@@ -1,12 +1,11 @@
 <script setup lang="ts">
+import HeroSection from "@/components/home-view/HeroSection.vue"
+import TechSection from "@/components/home-view/TechSection.vue";
+import LinkSection from "@/components/home-view/LinkSection.vue";
 </script>
 
 <template>
-  <section id="hero-section">
-
-  </section>
+  <HeroSection />
+  <TechSection />
+  <LinkSection />
 </template>
-
-<style lang="scss">
-@import "@/assets/scss/home-view/hero-section.scss";
-</style>
