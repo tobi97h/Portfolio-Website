@@ -7,14 +7,14 @@ export const techStack: Tech[] = [
     {
         id: 1,
         title: 'Java',
-        text: 'Angewandt in großen Projekten im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP.',
+        text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing dienst (fintech, Aktien).',
         percentage: 90
     },
     {
         id: 2,
         title: 'C#',
-        text: 'Businesslogiken und Utilities in einem industriellem Produktionsunternehmen.',
-        percentage: 70
+        text: 'Businesslogiken und Utilities in einem industriellem Produktionsunternehmen, komplexe Web APIs im Finanz und Social Media Sektor.',
+        percentage: 95
     },
     {
         id: 3,
@@ -25,14 +25,14 @@ export const techStack: Tech[] = [
     {
         id: 4,
         title: 'SQL (jede Art)',
-        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, die mehrschichtige SQL Abfragen, als Basis für Datenbeschaffung und Kalkulation, verwenden.',
-        percentage: 80
+        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, debugging von ORM Frameworks wie Hibernate und EFCore.',
+        percentage: 90
     },
     {
         id: 5,
         title: 'Python',
         text: 'Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.',
-        percentage: 70
+        percentage: 80
     }
 ]
 
@@ -41,11 +41,11 @@ export const frameworks: Framework[] = [
         id: 1,
         title: 'Spring',
         text: 'Benutzt als interner Microservice der die Library Vielfalt von Java bereit stellt. Ich schreibe ungerne alles in Java, da es mittlerweile weit aus modernere Sprachen gibt.',
-        percentage: 100
+        percentage: 85
     },
     {
         id: 2,
-        title: '.NET Core',
+        title: 'ASP.NET Core',
         text: 'Benutzt für ein komplexes Backend einer fintech App, die auf der AWS Lambda Architektur basiert.',
         percentage: 85
     },
@@ -73,14 +73,20 @@ export const devOps: DevOps[] = [
     {
         id: 1,
         title: 'Docker',
-        text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren. Environment aware code war noch nie einfacher.',
-        percentage: 100
+        text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.',
+        percentage: 99
     },
     {
         id: 2,
         title: 'Kubernetes',
-        text: 'Je nach Skalierungsbedarf ist dieser Orchestrierungsdienst sinnvoll. Hiermit können docker basierende Apps ins unendliche skaliert werden.',
-        percentage: 85
+        text: 'Bare metal und hosted cluster für grundlegende Firmendienstleistungen.',
+        percentage: 50
+    },
+    {
+        id: 3,
+        title: 'Terraform',
+        text: 'Hauptsächlich Erfahrung mit dem AWS Provider.',
+        percentage: 35
     }
 ]
 
@@ -89,12 +95,18 @@ export const softSkills: SoftSkills[] = [
         id: 1,
         title: 'Schreiben',
         text: 'Wenn man nur selbst mit seinen Systemen und Programmen arbeiten kann, sind diese wertlos. Sie müssen für Andere nachvollziehbar sein.',
-        percentage: 100
+        percentage: 99
     },
     {
         id: 2,
         title: 'Didaktik',
         text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
         percentage: 85
+    },
+    {
+        id: 3,
+        title: 'Management',
+        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll verwenden.',
+        percentage: 40
     }
 ]
