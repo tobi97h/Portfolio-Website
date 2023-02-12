@@ -1,12 +1,35 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
+import BasicSelect from "@/components/BasicSelect.vue"
+import { computed, ref } from 'vue'
+import type { ComputedRef } from 'vue'
 import type { Ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { allLocales, createLocaleObject, setLocale } from '@/i18n'
+
 const isOpen: Ref<boolean> = ref(false)
+
+const { t } = useI18n()
+
+// TODO: import t and acces in template {{ $t('') }}
+
+// Get the locale select options
+const localeOptions: ComputedRef<string[]> = computed((): string[] => {
+  return createLocaleObject(allLocales)
+})
 </script>
 
 <template>
   <nav id="navbar">
-    <p class="logo">Tobias Hübner</p>
+    <p class="logo">Tobias Hübner {{ $t('test') }}</p>
+
+    <BasicSelect
+        id="locale"
+        :options="localeOptions"
+        :default-selection="$i18n.locale"
+        :modelValue="$i18n.locale"
+        @change="setLocale($event.target.value)"
+    />
+
     <div class="link-container">
       <div class="open-button" @click="isOpen = true"></div>
       <ul :class="{ open : isOpen }">

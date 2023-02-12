@@ -1,0 +1,74 @@
+{
+  "test": "hey",
+  "navbar": {
+    "matches": "Matches",
+    "chats": "Chats",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "authView": {
+    "slider": {
+      "firstSlide": "Finde Menschen mit einem nahezu identischem Musikgeschmack.",
+      "secondSlide": "Endecke die Lieblingssongs deiner Seelenverwandten.",
+      "thirdSlide": "Wenn du möchstest, kannst du mit ihnen chatten."
+    },
+    "spotifyBtn": "Mit Spotify Verbinden"
+  },
+  "profileView": {
+    "trackingLabel": "Auswertung seit",
+    "connectedAppLabel": "verknüpfte apps",
+    "heading": "Deine Lieblingssongs von:",
+    "placeholders": {
+      "noUsername": "kein Benutzername verfügbar",
+      "noMinutes": "keine gehörten Minuten"
+    }
+  },
+  "matchesView": {
+    "heading": "Deine Top Matches",
+    "minutesLabel": "Minuten das selbe gehört",
+    "moreInfo": "mehr Informationen",
+    "placeholders": {
+      "noRank": "kein Rang verfügbar",
+      "noUsername": "kein Benutzername verfügbar",
+      "noMinutes": "keine gemeinsam gehörten Minuten"
+    }
+  },
+  "recommendedMediaView": {
+    "headingPrefix": "Das sind",
+    "headingSuffix": "Lieblingssongs, die du noch nicht kennst:"
+  },
+  "settingsView": {
+    "heading": "Einstellungen",
+    "localeLable": "Sprache wählen"
+  },
+  "connectedAppsView": {
+    "heading": "Verknüpfte Apps",
+    "connectStatus": "Verbunden",
+    "disconnectLink": "auflösen"
+  },
+  "media": {
+    "listenedMinutes": "Minuten erfasst",
+    "swalPopup": {
+      "openInSpotify": "In Spotify öffnen"
+    },
+    "placeholders": {
+      "noRank": "kein Rang verfügbar",
+      "noTitle": "kein Song Titel verfügbar",
+      "noArtists": "keine Künstler verfügbar",
+      "noImage": "kein Album Bild verfügbar",
+      "noMinutes": "keine Minuten verfügbar"
+    }
+  },
+  "informationPopup": {
+    "trackingSince": {
+      "heading": "Was ist mit Auswertung gemeint?",
+      "text": "Ab dem Zeitpunkt wo du bei uns registriert bist, verfolgen wir alles was du auf Spotify hörst nach. Spotify gibt uns nicht deinen gesamten Wiedergabeverlauf. In regelmäßigen Abständen gucken wir nach was du gehört hast und aktualisieren dein Profil.",
+      "btn": "Verstanden"
+    },
+    "matches": {
+      "heading": "Wie ergeben sich diese Matches?",
+      "text": "Wenn du Song A 50 Minuten gehört hast und ein anderer Nutzer den selben Song 100 Minuten gehört hat, ergibt sich daraus eine gemeinsam gehörte Zeit von 50 Minuten. Diese Rechnung nehmen wir für alle erfassten Wiedergaben vor und zeigen dir hier die Nutzer, mit der meisten gemeinsam gehörten Zeit.",
+      "btn": "Verstanden"
+    }
+  }
+}
