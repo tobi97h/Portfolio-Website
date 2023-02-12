@@ -19,13 +19,13 @@ export const techStack: Tech[] = [
     {
         id: 3,
         title: 'Go',
-        text: 'Hauptsächlich benutzt für komplexere REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
+        text: 'Hauptsächlich benutzt für komplexe REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
         percentage: 60
     },
     {
         id: 4,
         title: 'SQL (jede Art)',
-        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, debugging von ORM Frameworks wie Hibernate und EFCore.',
+        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, als Grundlage für ORMs wie Hibernate und EFCore.',
         percentage: 90
     },
     {
@@ -40,13 +40,13 @@ export const frameworks: Framework[] = [
     {
         id: 1,
         title: 'Spring',
-        text: 'Benutzt als interner Microservice der die Library Vielfalt von Java bereit stellt. Ich schreibe ungerne alles in Java, da es mittlerweile weit aus modernere Sprachen gibt.',
+        text: 'Als basis für einen Asset Rebalancing Dienst im Finanz und als Micro Service zum Bereitstellen diverser Dienste zum Verarbeiten von Dokumenten.',
         percentage: 85
     },
     {
         id: 2,
         title: 'ASP.NET Core',
-        text: 'Benutzt für ein komplexes Backend einer fintech App, die auf der AWS Lambda Architektur basiert.',
+        text: 'Benutzt für ein komplexes Backend einer fintech App, die sich auf das automatische Wechseln von Verträgen konzentriert.',
         percentage: 85
     },
     {
@@ -64,7 +64,7 @@ export const frameworks: Framework[] = [
     {
         id: 5,
         title: 'NodeJS',
-        text: 'Für lightweight Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.',
+        text: 'Für lightweight Webserver/APIs.',
         percentage: 75
     }
 ]
@@ -79,7 +79,7 @@ export const devOps: DevOps[] = [
     {
         id: 2,
         title: 'Kubernetes',
-        text: 'Bare metal und hosted cluster für grundlegende Firmendienstleistungen.',
+        text: 'Bare metal und hosted cluster für grundlegende Firmeninfrastruktur.',
         percentage: 50
     },
     {
@@ -94,7 +94,7 @@ export const softSkills: SoftSkills[] = [
     {
         id: 1,
         title: 'Schreiben',
-        text: 'Wenn man nur selbst mit seinen Systemen und Programmen arbeiten kann, sind diese wertlos. Sie müssen für Andere nachvollziehbar sein.',
+        text: 'Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Die Fähigkeit seine Ideen einfach und direkt gusdrücken zu können ist unbezahlbar.',
         percentage: 99
     },
     {
@@ -106,7 +106,7 @@ export const softSkills: SoftSkills[] = [
     {
         id: 3,
         title: 'Management',
-        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll verwenden.',
+        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll verwenden. In meinen Jahren als Programmierer habe ich stehts probiert über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet.',
         percentage: 40
     }
 ]
