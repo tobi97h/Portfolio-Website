@@ -1,0 +1,74 @@
+{
+  "test": "ho",
+  "navbar": {
+    "matches": "Matches",
+    "chats": "Chats",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "authView": {
+    "slider": {
+      "firstSlide": "Find people with an almost identical taste in music.",
+      "secondSlide": "Discover songs of your soulmates.",
+      "thirdSlide": "If you like, why not start a chat with them?"
+    },
+    "spotifyBtn": "Connect with Spotify"
+  },
+  "profileView": {
+    "trackingLabel": "Tracking since",
+    "connectedAppLabel": "connected app",
+    "heading": "Your favorite tracks from:",
+    "placeholders": {
+      "noUsername": "no username available",
+      "noMinutes": "no minutes available"
+    }
+  },
+  "matchesView": {
+    "heading": "Your top matches",
+    "minutesLabel": "minutes listened together",
+    "moreInfo": "more information",
+    "placeholders": {
+      "noRank": "no rank available",
+      "noUsername": "no username available",
+      "noMinutes": "no minutes available"
+    }
+  },
+  "recommendedMediaView": {
+    "headingPrefix": "Those are",
+    "headingSuffix": "favorite tracks you don’t know"
+  },
+  "settingsView": {
+    "heading": "Settings",
+    "localeLable": "Select language"
+  },
+  "connectedAppsView": {
+    "heading": "Connected apps",
+    "connectStatus": "Connected",
+    "disconnectLink": "disconnect"
+  },
+  "media": {
+    "listenedMinutes": "Minutes tracked",
+    "swalPopup": {
+      "openInSpotify": "Open in Spotify"
+    },
+    "placeholders": {
+      "noRank": "no rank available",
+      "noTitle": "no song title available",
+      "noArtists": "no artists available",
+      "noImage": "no album image available",
+      "noMinutes": "no minutes available"
+    }
+  },
+  "informationPopup": {
+    "trackingSince": {
+      "heading": "What is tracking supposed to mean?",
+      "text": "From the time you are registered, we start tracking everything you listen to on spotify. You can revoke this access at any time. Spotify doesn't give us your entire history instantly, so we fetch it at regular intervals, updating your profile as we collect more information.",
+      "btn": "Got it"
+    },
+    "matches": {
+      "heading": "How do these matches come about?",
+      "text": "Lets say you listened to song a for 50 minutes, another user listened to the same song for 100 minute. This would result in you having listened to it together for 50 minutes. We do this calculation for all tracked playbacks of all registered users. The users, that spend their time listening to music most similar to yours, are your matches.",
+      "btn": "Got it"
+    }
+  }
+}

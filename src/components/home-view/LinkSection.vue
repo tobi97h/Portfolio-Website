@@ -1,7 +1,31 @@
+<script setup lang="ts">
+import axios from "axios"
+import { ref, onMounted } from "vue";
+import type { Ref } from "vue";
+
+// access ref with blogEntries.value
+const blogEntries: Ref<number> = ref(1)
+
+onMounted(() => {
+  // TODO: axios get, set ref.value
+})
+
+
+</script>
+
 <template>
   <section id="link-section">
     <div class="container">
       <div class="link-box-wrapper">
+
+        <div class="link-box blog">
+          <h4>{{ blogEntries }}</h4>
+          <div class="divider"></div>
+          <h2>Blogeinträge</h2>
+          <p>Besagter Blog über besagte Themen.</p>
+          <div class="arrow"></div>
+        </div>
+
         <div class="link-box blog">
           <h4>24</h4>
           <div class="divider"></div>
@@ -9,6 +33,7 @@
           <p>Besagter Blog über besagte Themen.</p>
           <div class="arrow"></div>
         </div>
+
         <div class="link-box git">
           <h4>30</h4>
           <div class="divider"></div>
