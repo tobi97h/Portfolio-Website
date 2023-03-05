@@ -7,7 +7,7 @@ export const techStack: Tech[] = [
     {
         id: 1,
         title: 'Java',
-        text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing dienst (fintech, Aktien).',
+        text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).',
         percentage: 90
     },
     {
@@ -19,7 +19,7 @@ export const techStack: Tech[] = [
     {
         id: 3,
         title: 'Go',
-        text: 'Hauptsächlich benutzt für komplexe REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
+        text: 'Hauptsächlich benutzt für REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
         percentage: 60
     },
     {
@@ -32,6 +32,12 @@ export const techStack: Tech[] = [
         id: 5,
         title: 'Python',
         text: 'Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.',
+        percentage: 80
+    },
+    {
+        id: 6,
+        title: 'Bash',
+        text: 'Defacto scripting language für alles was pipelines und deployments im Bereich Infrastruktur angeht. Umfassende Erfahrung mit Github, Bitbucket bishin zu on Premise Pipelines wie Drone.',
         percentage: 80
     }
 ]
@@ -74,7 +80,7 @@ export const devOps: DevOps[] = [
         id: 1,
         title: 'Docker',
         text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.',
-        percentage: 99
+        percentage: 95
     },
     {
         id: 2,
@@ -84,9 +90,9 @@ export const devOps: DevOps[] = [
     },
     {
         id: 3,
-        title: 'Terraform',
-        text: 'Hauptsächlich Erfahrung mit dem AWS Provider.',
-        percentage: 35
+        title: 'Terraform (Terragrunt)',
+        text: 'Infrastructure as Code auf Ebene von Clouddiensten wie AWS, Azure und hosted Kubernetes Lösungen. Hauptsächlich Erfahrung mit dem AWS Provider.',
+        percentage: 40
     }
 ]
 
@@ -94,19 +100,19 @@ export const softSkills: SoftSkills[] = [
     {
         id: 1,
         title: 'Schreiben',
-        text: 'Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Die Fähigkeit seine Ideen einfach und direkt gusdrücken zu können ist unbezahlbar.',
+        text: 'Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Seine Ideen einfach und direkt ausdrücken zu können ist unbezahlbar.',
         percentage: 99
     },
     {
         id: 2,
         title: 'Didaktik',
-        text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
+        text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können, sodass sie eigenständig in der Lage sind es anzuwenden, ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
         percentage: 85
     },
     {
         id: 3,
         title: 'Management',
-        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll verwenden. In meinen Jahren als Programmierer habe ich stehts probiert über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet.',
+        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll nutzen können. In meinen Jahren als IT`ler habe ich stehts danach gestrebt über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet.',
         percentage: 40
     }
 ]
