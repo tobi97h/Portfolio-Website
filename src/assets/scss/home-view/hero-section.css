@@ -1,6 +1,7 @@
 #hero-section {
   background-color: #2b303b;
   padding: 6rem 0.938rem 2.188rem;
+  scroll-behavior: smooth;
 }
 #hero-section .container {
   display: flex;

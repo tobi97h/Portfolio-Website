@@ -1,6 +1,7 @@
 #tech-section {
   background-color: #1c212b;
   padding: 3.75rem 0.938rem 0.938rem;
+  scroll-behavior: smooth;
 }
 #tech-section h3 {
   font-weight: 600;

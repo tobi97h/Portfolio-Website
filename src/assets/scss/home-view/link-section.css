@@ -1,6 +1,7 @@
 #link-section {
   background-color: #151b26;
   padding: 4rem 0.938rem 4rem;
+  scroll-behavior: smooth;
 }
 #link-section .link-box-wrapper {
   width: 100%;
