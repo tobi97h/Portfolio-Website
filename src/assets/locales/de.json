@@ -1,3 +1,22 @@
 {
-  "test": "hey"
+  "blog": {
+    "heading": "Blogeinträge",
+    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  },
+  "totalCommits": {
+    "heading": "Total git commits",
+    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  },
+  "linesOfCode": {
+    "heading": "Total lines of code",
+    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  },
+  "executedPipelines": {
+    "heading": "Executed pipelines",
+    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  },
+  "linesOfDocumentation": {
+    "heading": "lines of documentation",
+    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  }
 }

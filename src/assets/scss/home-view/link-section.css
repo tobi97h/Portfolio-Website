@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   align-items: stretch;
   column-gap: 35px;
+  row-gap: 35px;
   margin-bottom: 35px;
 }
 #link-section .link-box-wrapper .link-box {
@@ -19,6 +20,11 @@
   padding: 1rem 1rem 1.4rem;
   cursor: pointer;
 }
+
+#link-section .link-box-wrapper .link-box * {
+  text-decoration: none;
+}
+
 #link-section .link-box-wrapper .link-box h2 {
   color: #8d7498;
   font-size: 22px;

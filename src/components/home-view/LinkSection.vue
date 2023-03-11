@@ -2,12 +2,21 @@
 import axios from "axios"
 import { ref, onMounted } from "vue";
 import type { Ref } from "vue";
+import type { Stats } from "@/models/stats/Stats";
+import { useI18n } from "vue-i18n";
+import statsApi from "@/services/StatsApi";
+
+const { t } = useI18n()
 
 // access ref with blogEntries.value
 const blogEntries: Ref<number> = ref(1)
 
-onMounted(() => {
-  // TODO: axios get, set ref.value
+let stats: Stats = {
+  blogEntries: 4
+} as Stats
+
+onMounted(async () => {
+  //stats = await statsApi.fetchStats()
 })
 
 
@@ -18,19 +27,19 @@ onMounted(() => {
     <div class="container">
       <div class="link-box-wrapper">
 
-        <div class="link-box blog">
-          <h4>{{ blogEntries }}</h4>
+        <a href="#" class="link-box blog">
+          <h4>{{ stats.blogEntries }}</h4>
           <div class="divider"></div>
-          <h2>Blogeinträge</h2>
-          <p>Besagter Blog über besagte Themen.</p>
+          <h2>{{ $t('blog.heading') }}</h2>
+          <p>{{ $t('blog.text') }}</p>
           <div class="arrow"></div>
-        </div>
+        </a>
 
-        <div class="link-box blog">
+        <div class="link-box git">
           <h4>24</h4>
           <div class="divider"></div>
-          <h2>Blogeinträge</h2>
-          <p>Besagter Blog über besagte Themen.</p>
+          <h2>{{ $t('blog.heading') }}</h2>
+          <p>{{ $t('blog.text') }}</p>
           <div class="arrow"></div>
         </div>
 

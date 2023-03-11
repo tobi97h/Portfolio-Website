@@ -67,5 +67,23 @@ p {
     max-width: 1250px;
   }
 }
+.locale-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.locale-wrapper .locale {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.locale-wrapper .locale.active {
+  text-decoration: underline;
+}
+
+.locale-wrapper svg {
+  margin-top: 1px;
+}
 
 /*# sourceMappingURL=base.css.map */
