@@ -7,32 +7,38 @@ export const techStack: Tech[] = [
     {
         id: 1,
         title: 'Java',
-        text: 'Angewandt in großen Projekten im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP.',
+        text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).',
         percentage: 90
     },
     {
         id: 2,
         title: 'C#',
-        text: 'Businesslogiken und Utilities in einem industriellem Produktionsunternehmen.',
-        percentage: 70
+        text: 'Businesslogiken und Utilities in einem industriellem Produktionsunternehmen, komplexe Web APIs im Finanz und Social Media Sektor.',
+        percentage: 95
     },
     {
         id: 3,
         title: 'Go',
-        text: 'Hauptsächlich benutzt für komplexere REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
+        text: 'Hauptsächlich benutzt für REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
         percentage: 60
     },
     {
         id: 4,
         title: 'SQL (jede Art)',
-        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, die mehrschichtige SQL Abfragen, als Basis für Datenbeschaffung und Kalkulation, verwenden.',
-        percentage: 80
+        text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, als Grundlage für ORMs wie Hibernate und EFCore.',
+        percentage: 90
     },
     {
         id: 5,
         title: 'Python',
         text: 'Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.',
-        percentage: 70
+        percentage: 80
+    },
+    {
+        id: 6,
+        title: 'Bash',
+        text: 'Defacto scripting language für alles was pipelines und deployments im Bereich Infrastruktur angeht. Umfassende Erfahrung mit Github, Bitbucket bishin zu on Premise Pipelines wie Drone.',
+        percentage: 80
     }
 ]
 
@@ -40,13 +46,13 @@ export const frameworks: Framework[] = [
     {
         id: 1,
         title: 'Spring',
-        text: 'Benutzt als interner Microservice der die Library Vielfalt von Java bereit stellt. Ich schreibe ungerne alles in Java, da es mittlerweile weit aus modernere Sprachen gibt.',
-        percentage: 100
+        text: 'Als basis für einen Asset Rebalancing Dienst im Finanz und als Micro Service zum Bereitstellen diverser Dienste zum Verarbeiten von Dokumenten.',
+        percentage: 85
     },
     {
         id: 2,
-        title: '.NET Core',
-        text: 'Benutzt für ein komplexes Backend einer fintech App, die auf der AWS Lambda Architektur basiert.',
+        title: 'ASP.NET Core',
+        text: 'Benutzt für ein komplexes Backend einer fintech App, die sich auf das automatische Wechseln von Verträgen konzentriert.',
         percentage: 85
     },
     {
@@ -64,7 +70,7 @@ export const frameworks: Framework[] = [
     {
         id: 5,
         title: 'NodeJS',
-        text: 'Für lightweight Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.',
+        text: 'Für lightweight Webserver/APIs.',
         percentage: 75
     }
 ]
@@ -73,14 +79,20 @@ export const devOps: DevOps[] = [
     {
         id: 1,
         title: 'Docker',
-        text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren. Environment aware code war noch nie einfacher.',
-        percentage: 100
+        text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.',
+        percentage: 95
     },
     {
         id: 2,
         title: 'Kubernetes',
-        text: 'Je nach Skalierungsbedarf ist dieser Orchestrierungsdienst sinnvoll. Hiermit können docker basierende Apps ins unendliche skaliert werden.',
-        percentage: 85
+        text: 'Bare metal und hosted cluster für grundlegende Firmeninfrastruktur.',
+        percentage: 50
+    },
+    {
+        id: 3,
+        title: 'Terraform (Terragrunt)',
+        text: 'Infrastructure as Code auf Ebene von Clouddiensten wie AWS, Azure und hosted Kubernetes Lösungen. Hauptsächlich Erfahrung mit dem AWS Provider.',
+        percentage: 40
     }
 ]
 
@@ -88,13 +100,19 @@ export const softSkills: SoftSkills[] = [
     {
         id: 1,
         title: 'Schreiben',
-        text: 'Wenn man nur selbst mit seinen Systemen und Programmen arbeiten kann, sind diese wertlos. Sie müssen für Andere nachvollziehbar sein.',
-        percentage: 100
+        text: 'Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Seine Ideen einfach und direkt ausdrücken zu können ist unbezahlbar.',
+        percentage: 99
     },
     {
         id: 2,
         title: 'Didaktik',
-        text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
+        text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können, sodass sie eigenständig in der Lage sind es anzuwenden, ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
         percentage: 85
+    },
+    {
+        id: 3,
+        title: 'Management',
+        text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll nutzen können. In meinen Jahren als IT`ler habe ich stehts danach gestrebt über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet.',
+        percentage: 40
     }
 ]
