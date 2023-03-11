@@ -5,10 +5,16 @@ nav#navbar {
   width: 100%;
   display: flex;
   z-index: 25;
-  padding: 15px;
-  display: flex;
   background-color: #1c212b;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  padding: 15px;
 }
 
 .logo {
@@ -114,6 +120,53 @@ li {
 
 .locale-wrapper svg {
   margin-top: 1px;
+}
+
+@media (min-width: 991px) {
+  .nav-underlay,
+.nav-underlay.open,
+.open-button,
+.close-button {
+    display: none;
+  }
+
+  .link-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: auto;
+    padding: 0;
+    width: 70vw;
+    max-width: 700px;
+    background-color: #1c212b;
+    transition: 250ms ease-out;
+    z-index: 25;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 75px;
+  }
+
+  ul.open {
+    right: 0;
+  }
+
+  li {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .locale-wrapper {
+    width: auto;
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=navbar.css.map */

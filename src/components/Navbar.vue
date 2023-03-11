@@ -13,6 +13,7 @@ function checkLocale(locale: string) {
 
 <template>
   <nav id="navbar">
+    <div class="nav-container">
     <p class="logo">Tobias Hübner</p>
 
     <div class="link-container">
@@ -31,6 +32,7 @@ function checkLocale(locale: string) {
       </ul>
     </div>
     <div class="nav-underlay" :class="{ open : mainStore.openNavMenu }" @click="mainStore.openNavMenu = false"></div>
+    </div>
   </nav>
 </template>
 
