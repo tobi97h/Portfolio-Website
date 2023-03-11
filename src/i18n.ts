@@ -2,6 +2,7 @@
 import { createI18n } from 'vue-i18n'
 import en from '@/assets/locales/en.json'
 import de from '@/assets/locales/de.json'
+import {useMainStore} from "@/stores/MainStore";
 
 // Array that includes all locales
 export const allLocales: string[] = ['de', 'en']
@@ -25,6 +26,9 @@ export const i18n = createI18n({
  * @param locale
  */
 export async function setLocale(locale: Locales) {
+
+  const mainStore = useMainStore()
+
   // Load locale if not available yet.
   if (!i18n.global.availableLocales.includes(locale)) {
     const messages = await loadLocale(locale)
@@ -37,6 +41,8 @@ export async function setLocale(locale: Locales) {
   }
   // Set locale.
   i18n.global.locale.value = locale
+
+  mainStore.activeLocale = locale
 }
 /**
  * Load a specific locale lang file based on the passed local enum

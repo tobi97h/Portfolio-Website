@@ -94,36 +94,25 @@ li {
   cursor: pointer;
 }
 
-/*
 
-.wrapper-right {
-  flex: 1;
+.locale-wrapper {
+  width: 90px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
 }
 
-.open-button {
-  width: 33px;
-  height: 21px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='33' height='21' viewBox='0 0 33 21'%3E%3Cg id='hamburger_menu' data-name='hamburger menu' transform='translate(-330.534 -27)'%3E%3Crect id='Rechteck_5' data-name='Rechteck 5' width='33' height='3' rx='1.5' transform='translate(330.534 27)' fill='%23fff'/%3E%3Crect id='Rechteck_6' data-name='Rechteck 6' width='24' height='3' rx='1.5' transform='translate(339.534 36)' fill='%23fff'/%3E%3Crect id='Rechteck_7' data-name='Rechteck 7' width='15' height='3' rx='1.5' transform='translate(348.534 45)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  cursor: pointer;
+.locale-wrapper .locale {
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
-.nav-link-wrapper {
-  position: absolute;
-  top: 0;
-  right: -80%;
-  width: 80%;
-  height: 100vh;
-  background-color: black;
-  transition: 250ms ease-out;
-  z-index: 50;
+.locale-wrapper .locale.active {
+  color: #8d7498;
+  text-decoration: underline;
 }
 
-.nav-link-wrapper.open {
-  right: 0;
+.locale-wrapper svg {
+  margin-top: 1px;
 }
-
-
-*/

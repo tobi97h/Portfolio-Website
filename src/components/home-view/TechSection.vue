@@ -15,7 +15,7 @@ const techStack: ComputedRef<Tech[]> = computed(() => {
   return [
     {
       id: 1,
-      title: t('test'),
+      title: t('blog.heading'),
       text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).',
       percentage: 90
     },
