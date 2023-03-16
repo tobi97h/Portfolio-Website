@@ -1,0 +1,111 @@
+#project-section {
+  background-color: #131720;
+  padding: 4rem 20px 1.2rem;
+}
+#project-section .container .subheading {
+  width: 100%;
+  text-align: center;
+  color: #846D8F;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+  font-size: 1.25rem;
+  line-height: 0.75;
+  margin: 0;
+}
+#project-section .container .divider {
+  background: #846D8F;
+  width: 3.125rem;
+  height: 0.125rem;
+  margin: 0 auto 45px;
+}
+#project-section .container .project-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#project-section .container .project-wrapper .text-wrapper {
+  margin-bottom: 35px;
+}
+#project-section .container .project-wrapper .text-wrapper h3 {
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+#project-section .container .project-wrapper .text-wrapper .text {
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+#project-section .container .project-wrapper .text-wrapper .button-wrapper {
+  max-width: 400px;
+  display: flex;
+  column-gap: 15px;
+}
+#project-section .container .project-wrapper .text-wrapper .button-wrapper .button {
+  display: block;
+  padding: 12px 28px;
+  color: #151b26;
+}
+#project-section .container .project-wrapper .text-wrapper .button-wrapper .button:first-child {
+  background-color: #8d7498;
+}
+#project-section .container .project-wrapper .text-wrapper .button-wrapper .button:last-child {
+  background-color: #282D37;
+  color: #FFFFFF;
+}
+#project-section .container .project-wrapper.art {
+  margin-bottom: 35px;
+}
+#project-section .container .project-wrapper.art .art-wireframes {
+  width: 100%;
+  max-width: 560px;
+}
+#project-section .container .project-wrapper.sg {
+  margin-bottom: 35px;
+}
+#project-section .container .project-wrapper.sg .sg-wireframes {
+  width: 100%;
+  max-width: 560px;
+}
+
+@media (min-width: 1024px) {
+  #project-section .container .project-wrapper.art {
+    position: relative;
+    flex-direction: row;
+    background-color: #0a0e1c;
+    padding: 45px;
+    overflow: hidden;
+  }
+  #project-section .container .project-wrapper.art .art-wireframes {
+    position: absolute;
+    width: 100%;
+    max-width: 650px;
+    bottom: -80px;
+    right: -170px;
+  }
+  #project-section .container .project-wrapper.art .text-wrapper {
+    margin-bottom: 0;
+  }
+  #project-section .container .project-wrapper.sg {
+    position: relative;
+    flex-direction: row-reverse;
+    background-color: #0a0e1c;
+    padding: 45px;
+    overflow: hidden;
+  }
+  #project-section .container .project-wrapper.sg .sg-wireframes {
+    position: absolute;
+    width: 100%;
+    max-width: 620px;
+    bottom: -110px;
+    left: -175px;
+  }
+  #project-section .container .project-wrapper.sg .text-wrapper {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1280px) {
+  #project-section .container .project-wrapper .text-wrapper .text {
+    max-width: 690px;
+  }
+}
+
+/*# sourceMappingURL=rebalancing-tool.css.map */
