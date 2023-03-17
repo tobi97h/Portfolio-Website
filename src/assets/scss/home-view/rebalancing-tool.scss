@@ -12,7 +12,7 @@
       letter-spacing: 0.0625rem;
       font-size: 1.25rem;
       line-height: 0.75;
-      margin: 0;
+      margin: 0 0 22px;
     }
 
     .divider {
@@ -47,12 +47,16 @@
           .button {
             display: block;
             padding: 12px 28px;
-
+            transition: 200ms ease-out;
             color: #151b26;
           }
 
           .button:first-child {
             background-color: #8d7498;
+          }
+
+          .button:first-child:hover {
+            background-color: #739A99;
           }
 
           .button:last-child {

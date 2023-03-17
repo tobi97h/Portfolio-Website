@@ -11,7 +11,7 @@
   letter-spacing: 0.0625rem;
   font-size: 1.25rem;
   line-height: 0.75;
-  margin: 0;
+  margin: 0 0 22px;
 }
 #project-section .container .divider {
   background: #846D8F;
@@ -42,10 +42,14 @@
 #project-section .container .project-wrapper .text-wrapper .button-wrapper .button {
   display: block;
   padding: 12px 28px;
+  transition: 200ms ease-out;
   color: #151b26;
 }
 #project-section .container .project-wrapper .text-wrapper .button-wrapper .button:first-child {
   background-color: #8d7498;
+}
+#project-section .container .project-wrapper .text-wrapper .button-wrapper .button:first-child:hover {
+  background-color: #739A99;
 }
 #project-section .container .project-wrapper .text-wrapper .button-wrapper .button:last-child {
   background-color: #282D37;
