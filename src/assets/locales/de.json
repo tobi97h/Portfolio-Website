@@ -1,22 +1,61 @@
 {
-  "blog": {
-    "heading": "Blogeinträge",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "nav" : {
+    "about" : "Über mich",
+    "stack" : "Tech Stack"
   },
-  "totalCommits": {
-    "heading": "Total git commits",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "hero" : {
+    "heading" : "Backend & Infrastructure Senior",
+    "text" : "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leite ich kleinere Teams und unterstütze sie mit meinem Know-How. Ich bin versiert, aufgeschlossen und mir für nichts zu Schade. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation in alle Richtungen, erreicht man die gesteckten Ziele."
   },
-  "linesOfCode": {
-    "heading": "Total lines of code",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "tech" : {
+    "date" : "Stand: 2 März 2023",
+    "heading" : "Programmiersprachen/Skills",
+    "java" : "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).",
+    "cs" : "Businesslogiken und Utilities in einem industriellem Produktionsunternehmen, komplexe Web APIs im Finanz und Social Media Sektor.",
+    "go" : "Hauptsächlich benutzt für REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.",
+    "sql" : {
+      "heading" : "SQL (jede Art)",
+      "text" : "Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, als Grundlage für ORMs wie Hibernate und EFCore."
+    },
+    "python" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.",
+    "bash": "Defacto scripting language für alles was pipelines und deployments im Bereich Infrastruktur angeht. Umfassende Erfahrung mit Github, Bitbucket bishin zu on Premise Pipelines wie Drone."
   },
-  "executedPipelines": {
-    "heading": "Executed pipelines",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "frameworks" : {
+    "spring" : "Als basis für einen Asset Rebalancing Dienst im Finanz und als Micro Service zum Bereitstellen diverser Dienste zum Verarbeiten von Dokumenten.",
+    "asp" : "Benutzt für ein komplexes Backend einer fintech App, die sich auf das automatische Wechseln von Verträgen konzentriert.",
+    "javafx" : "Apps für Management in einem Industriebetrieb, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.",
+    "wpf" : "Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen existieren und dementsprechende Abhängigkeiten haben.",
+    "node" : "Für lightweight Webserver/APIs."
   },
-  "linesOfDocumentation": {
-    "heading": "lines of documentation",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "ops" : {
+    "docker" : "Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.",
+    "k8s" : "Bare metal und hosted cluster für grundlegende Firmeninfrastruktur.",
+    "terraform" : "Infrastructure as Code auf Ebene von Clouddiensten wie AWS, Azure und hosted Kubernetes Lösungen. Hauptsächlich Erfahrung mit dem AWS Provider."
+  },
+  "softSkills" : {
+    "writing" : {
+      "heading" : "Schreiben",
+      "text" : "Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Seine Ideen einfach und direkt ausdrücken zu können ist unbezahlbar."
+    },
+    "didactics" : {
+      "heading" : "Didaktik",
+      "text" : "Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können, sodass sie eigenständig in der Lage sind es anzuwenden, ist einer der leichtesten Wege den eigenen Wert zu erhöhen."
+    },
+    "management" : "Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll nutzen können. In meinen Jahren als IT`ler habe ich stehts danach gestrebt über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet."
+  },
+  "stats" : {
+     "blog" : {
+       "heading" : "Blogeinträge",
+       "text" : "Mein Blog zu diversen Tech Problematiken."
+     },
+    "commits" : "Summe aller meiner commits in open source Projekten",
+    "repos" : "Gesamte Anzahl meiner open source Repositories"
+  },
+  "projects" : {
+    "heading" : "Eigene Projekte",
+    "homepage" : "Zur Live Version",
+    "source" : "Zum Quellcode",
+    "balancingTool" : "Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie. Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.",
+    "suggest" : "Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst."
   }
 }

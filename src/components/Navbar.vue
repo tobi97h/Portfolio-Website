@@ -5,6 +5,9 @@ import {useMainStore} from "@/stores/MainStore";
 
 const mainStore = useMainStore()
 
+import { useI18n } from "vue-i18n";
+const { t } = useI18n()
+
 // Bool to check if active class should be rendered
 function checkLocale(locale: string) {
   return locale === mainStore.activeLocale
@@ -20,8 +23,8 @@ function checkLocale(locale: string) {
       <div class="open-button" @click="mainStore.openNavMenu = true"></div>
       <ul :class="{ open : mainStore.openNavMenu }">
         <li class="close-button" @click="mainStore.openNavMenu = false"></li>
-        <li><a href="#hero-section">Über mich</a></li>
-        <li><a href="#tech-section">Tech Stack</a></li>
+        <li><a href="#hero-section">{{ $t('nav.about') }}</a></li>
+        <li><a href="#tech-section">{{ $t('nav.stack') }}</a></li>
         <li><a href="#link-section">Stats</a></li>
         <li><a href="https://www.linkedin.com/in/tobias-h%C3%BCbner-b19ba416a/" target="_blank">LinkedIn</a></li>
         <li class="locale-wrapper">

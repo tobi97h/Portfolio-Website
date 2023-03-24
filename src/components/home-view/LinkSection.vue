@@ -30,16 +30,16 @@ onMounted(async () => {
         <a href="#" class="link-box blog">
           <h4>{{ stats.blogEntries }}</h4>
           <div class="divider"></div>
-          <h2>{{ $t('blog.heading') }}</h2>
-          <p>{{ $t('blog.text') }}</p>
+          <h2>{{ $t('stats.blog.heading') }}</h2>
+          <p>{{ $t('stats.blog.text') }}</p>
           <div class="arrow"></div>
         </a>
 
         <div class="link-box git">
           <h4>24</h4>
           <div class="divider"></div>
-          <h2>{{ $t('blog.heading') }}</h2>
-          <p>{{ $t('blog.text') }}</p>
+          <h2>Git Commits</h2>
+          <p>{{ $t("stats.commits") }}</p>
           <div class="arrow"></div>
         </div>
 
@@ -47,16 +47,10 @@ onMounted(async () => {
           <h4>30</h4>
           <div class="divider"></div>
           <h2>Git Repos</h2>
-          <p>Praktisch wie GitHub nur self-hosted.</p>
+          <p>{{ $t("stats.repos") }}</p>
           <div class="arrow"></div>
         </div>
-        <div class="link-box wiki">
-          <h4>18</h4>
-          <div class="divider"></div>
-          <h2>Wiki Einträge</h2>
-          <p>Meine eigene kleine Knowledgebase.</p>
-          <div class="arrow"></div>
-        </div>
+
       </div>
     </div>
   </section>

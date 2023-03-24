@@ -15,38 +15,38 @@ const techStack: ComputedRef<Tech[]> = computed(() => {
   return [
     {
       id: 1,
-      title: t('blog.heading'),
-      text: 'Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).',
+      title: "Java",
+      text: t("tech.java"),
       percentage: 90
     },
     {
       id: 2,
       title: 'C#',
-      text: 'Businesslogiken und Utilities in einem industriellem Produktionsunternehmen, komplexe Web APIs im Finanz und Social Media Sektor.',
+      text: t("tech.cs"),
       percentage: 95
     },
     {
       id: 3,
       title: 'Go',
-      text: 'Hauptsächlich benutzt für REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.',
+      text: t("tech.go"),
       percentage: 60
     },
     {
       id: 4,
-      title: 'SQL (jede Art)',
-      text: 'Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, als Grundlage für ORMs wie Hibernate und EFCore.',
+      title: t("tech.sql.heading"),
+      text: t("tech.sql.text"),
       percentage: 90
     },
     {
       id: 5,
       title: 'Python',
-      text: 'Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.',
+      text: t("tech.python"),
       percentage: 80
     },
     {
       id: 6,
       title: 'Bash',
-      text: 'Defacto scripting language für alles was pipelines und deployments im Bereich Infrastruktur angeht. Umfassende Erfahrung mit Github, Bitbucket bishin zu on Premise Pipelines wie Drone.',
+      text: t("tech.bash"),
       percentage: 80
     }
   ]
@@ -57,31 +57,31 @@ const frameworks: ComputedRef<Framework[]> = computed(() => {
     {
       id: 1,
       title: 'Spring',
-      text: 'Als basis für einen Asset Rebalancing Dienst im Finanz und als Micro Service zum Bereitstellen diverser Dienste zum Verarbeiten von Dokumenten.',
+      text: t("frameworks.spring"),
       percentage: 85
     },
     {
       id: 2,
       title: 'ASP.NET Core',
-      text: 'Benutzt für ein komplexes Backend einer fintech App, die sich auf das automatische Wechseln von Verträgen konzentriert.',
+      text: t("frameworks.asp"),
       percentage: 85
     },
     {
       id: 3,
       title: 'JavaFx',
-      text: 'Apps für Management in einem Industriebetrieb, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.',
+      text: t("frameworks.javafx"),
       percentage: 70
     },
     {
       id: 4,
       title: 'WPF',
-      text: 'Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen existieren und dementsprechende Abhängigkeiten haben.',
+      text: t("frameworks.wpf"),
       percentage: 80
     },
     {
       id: 5,
       title: 'NodeJS',
-      text: 'Für lightweight Webserver/APIs.',
+      text: t("frameworks.node"),
       percentage: 75
     }
   ]
@@ -92,19 +92,19 @@ const devOps: ComputedRef<DevOps[]> = computed(() => {
     {
       id: 1,
       title: 'Docker',
-      text: 'Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.',
+      text: t("ops.docker"),
       percentage: 95
     },
     {
       id: 2,
       title: 'Kubernetes',
-      text: 'Bare metal und hosted cluster für grundlegende Firmeninfrastruktur.',
+      text: t("ops.k8s"),
       percentage: 50
     },
     {
       id: 3,
       title: 'Terraform (Terragrunt)',
-      text: 'Infrastructure as Code auf Ebene von Clouddiensten wie AWS, Azure und hosted Kubernetes Lösungen. Hauptsächlich Erfahrung mit dem AWS Provider.',
+      text: t("ops.terraform"),
       percentage: 40
     }
   ]
@@ -114,20 +114,20 @@ const softSkills: ComputedRef<SoftSkills[]> = computed(() => {
   return [
     {
       id: 1,
-      title: 'Schreiben',
-      text: 'Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Seine Ideen einfach und direkt ausdrücken zu können ist unbezahlbar.',
+      title: t("softSkills.writing.heading"),
+      text: t("softSkills.writing.text"),
       percentage: 99
     },
     {
       id: 2,
-      title: 'Didaktik',
-      text: 'Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können, sodass sie eigenständig in der Lage sind es anzuwenden, ist einer der leichtesten Wege den eigenen Wert zu erhöhen.',
+      title: t("softSkills.didactics.heading"),
+      text: t("softSkills.didactics.text"),
       percentage: 85
     },
     {
       id: 3,
       title: 'Management',
-      text: 'Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll nutzen können. In meinen Jahren als IT`ler habe ich stehts danach gestrebt über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet.',
+      text: t("softSkills.management"),
       percentage: 40
     }
   ]

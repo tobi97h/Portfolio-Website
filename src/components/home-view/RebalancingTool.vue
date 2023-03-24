@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+import { useI18n } from "vue-i18n";
+const { t } = useI18n()
 </script>
 
 <template>
@@ -12,10 +13,10 @@
       <div class="project-wrapper art">
         <div class="text-wrapper">
           <h3>Portfolio Rebalancing Tool</h3>
-          <p class="text">Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie. Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.</p>
+          <p class="text">{{ $t('projects.balancingTool') }}</p>
           <div class="button-wrapper">
-            <a href="https://portfolio-rebalancer.com/" target="_blank" class="button">Zur Live Version</a>
-            <a href="https://github.com/Asset-Rebalancing-Tool/ApiRunner" target="_blank" class="button">Zum Quellcode</a>
+            <a href="https://portfolio-rebalancer.com/" target="_blank" class="button">{{ $t('projects.homepage') }}</a>
+            <a href="https://github.com/Asset-Rebalancing-Tool/ApiRunner" target="_blank" class="button">{{ $t('projects.source') }}</a>
           </div>
         </div>
         <img class="art-wireframes" src="src/assets/images/Portfolio_Rebalancing_Tool_Wireframes.png" alt="Portfolio Rebalancing Tool Wireframes" />
@@ -24,10 +25,10 @@
       <div class="project-wrapper sg">
         <div class="text-wrapper">
           <h3>Suggest App</h3>
-          <p class="text">Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst.</p>
+          <p class="text">{{ $t('projects.suggest') }}</p>
           <div class="button-wrapper">
-            <a href="https://suggest-app.com/" target="_blank" class="button">Zur Live Version</a>
-            <a href="https://github.com/Suggest-App/SGBackend" target="_blank" class="button">Zum Quellcode</a>
+            <a href="https://suggest-app.com/" target="_blank" class="button">{{ $t('projects.homepage') }}</a>
+            <a href="https://github.com/Suggest-App/SGBackend" target="_blank" class="button">{{ $t('projects.source') }}</a>
           </div>
         </div>
         <img class="sg-wireframes" src="src/assets/images/Suggest_App_Wireframes.png" alt="Suggest App Wireframes" />
