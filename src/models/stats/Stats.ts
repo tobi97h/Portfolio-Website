@@ -1,6 +1,6 @@
 export interface Stats {
-    blogEntries: number,
+    ghostBlogEntries: number,
     commits: number,
     linesOfCode: number,
-    linesOfDoc: number,
+    repos: number,
 }

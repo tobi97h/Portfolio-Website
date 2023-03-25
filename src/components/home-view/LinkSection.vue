@@ -12,11 +12,14 @@ const { t } = useI18n()
 const blogEntries: Ref<number> = ref(1)
 
 let stats: Stats = {
-  blogEntries: 4
+  ghostBlogEntries: 404,
+  linesOfCode: 404,
+  commits: 404,
+  repos: 404
 } as Stats
 
 onMounted(async () => {
-  //stats = await statsApi.fetchStats()
+  stats = await statsApi.fetchStats()
 })
 
 
@@ -28,7 +31,7 @@ onMounted(async () => {
       <div class="link-box-wrapper">
 
         <a href="#" class="link-box blog">
-          <h4>{{ stats.blogEntries }}</h4>
+          <h4>{{ stats.ghostBlogEntries }}</h4>
           <div class="divider"></div>
           <h2>{{ $t('stats.blog.heading') }}</h2>
           <p>{{ $t('stats.blog.text') }}</p>
@@ -36,7 +39,15 @@ onMounted(async () => {
         </a>
 
         <div class="link-box git">
-          <h4>24</h4>
+          <h4>{{ stats.repos}}</h4>
+          <div class="divider"></div>
+          <h2>Git Repos</h2>
+          <p>{{ $t("stats.repos") }}</p>
+          <div class="arrow"></div>
+        </div>
+
+        <div class="link-box git">
+          <h4>{{ stats.commits }}</h4>
           <div class="divider"></div>
           <h2>Git Commits</h2>
           <p>{{ $t("stats.commits") }}</p>
@@ -44,12 +55,13 @@ onMounted(async () => {
         </div>
 
         <div class="link-box git">
-          <h4>30</h4>
+          <h4>{{ stats.linesOfCode }}</h4>
           <div class="divider"></div>
-          <h2>Git Repos</h2>
-          <p>{{ $t("stats.repos") }}</p>
+          <h2>{{ $t("stats.linesOfCode.heading")}}</h2>
+          <p>{{ $t("stats.linesOfCode.text") }}</p>
           <div class="arrow"></div>
         </div>
+
 
       </div>
     </div>

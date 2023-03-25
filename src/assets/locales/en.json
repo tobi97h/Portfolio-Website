@@ -1,22 +1,65 @@
 {
-  "blog": {
-    "heading": "ALoream Ipsum dorlor",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "nav" : {
+    "about" : "About me",
+    "stack" : "Tech stack"
   },
-  "totalCommits": {
-    "heading": "Total git commits",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "hero" : {
+    "heading" : "Backend & infrastructure senior",
+    "text" : "For more than 5 years I have been working in IT. In this time I developed a broad understanding of the IT world in general, as well as mastering core backend and infrastructure topics. This Know-How allows me to lead small teams to success. I am an open minded, ambitious guy that doesn't take himself too serious. I have no problem asking hard questions, since only brutal honestly leads to maintainable solutions."
   },
-  "linesOfCode": {
-    "heading": "Total lines of code",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "tech" : {
+    "date" : "As of March 2nd 2023",
+    "heading" : "Programming languages / skills",
+    "java" : "Used writing and extending a MRP-System (=Material Requirements Planning), in connection with SAP. Also used for an asset rebalancing prototype (fintech, stocks).",
+    "cs" : "Business logic and utilities for a industrial manufacturing company, complex web APIs in finance and social media.",
+    "go" : "Used for high performing REST Services.",
+    "sql" : {
+      "heading" : "SQL (any flavour)",
+      "text" : "Extensive reporting of operational data, as basis for ORMs like Hibernate and EFCore."
+    },
+    "python" : "The swiss army knife of programming languages, mostly used for scripts and CLIs that assist and automate the development process.",
+    "bash": "Scripting language for everything regarding pipelines and deployments in infrastructure. Extensive knowledge with Github, Bitbucket and on premise solutions like Drone."
   },
-  "executedPipelines": {
-    "heading": "Executed pipelines",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "frameworks" : {
+    "spring" : "As foundation for an asset rebalancing service in finance and as a microservice that processes various kinds of documents.",
+    "asp" : "Backend of a fintech app, that deals with automatic periodic swapping of insurance and energy contracts.",
+    "javafx" : "Apps for management in an industrial manufacturing company, that help guide and control the material value-added process.",
+    "wpf" : "Same purpose as the JavaFx apps, just restricted to apps with hard dependencies on windows.",
+    "node" : "For lightweight APIs."
   },
-  "linesOfDocumentation": {
-    "heading": "lines of documentation",
-    "text": "sfdsgfadfsgfdgdfgdfgfdgdfagdfghfdagafgafsd"
+  "ops" : {
+    "docker" : "For automating test, build and deployment processes - infrastructure as code.",
+    "k8s" : "Bare metal und hosted cluster, as basis for the entire company infrastructure.",
+    "terraform" : "Infrastructure as code at the level of cloud service providers like AWS, Azure and hosted Kubernetes clusters. Experience mostly regarding the AWS provider."
+  },
+  "softSkills" : {
+    "writing" : {
+      "heading" : "Writing",
+      "text" : "Besides code, I like to write essays and songs. To be able to convey ideas in a simple, yet elegant manner has proven invaluable to me."
+    },
+    "didactics" : {
+      "heading" : "Didactics",
+      "text" : "Knowledge can be copied without any boundaries, the ability to teach others what you already know is one of the quickest ways to increase productivity."
+    },
+    "management" : "Especially knew engineers need some guidance regarding the bigger picture, or they will waste their time going down dead end roads. In my years as an IT professional I have always striven to broaden my horizon, to understand what makes a good product and not just good code."
+  },
+  "stats" : {
+    "blog" : {
+      "heading" : "Blog entries",
+      "text" : "My personal tech blog where I post on different topics regarding backend and infrastructure."
+    },
+    "commits" : "Total number of commits of all my open source repositories.",
+    "repos" : "Total number of my open source repositories.",
+    "linesOfCode" : {
+      "heading" : "Lines of Code",
+      "text" : "Total number of written lines of open source code."
+    }
+  },
+  "projects" : {
+    "heading" : "Personal Projects",
+    "homepage" : "Live version",
+    "source" : "Source code",
+    "balancingTool" : "This app simplifies the process of asset rebalancing. With our app, you can easily and comprehensively map your assets. An automated restoration of your asset allocation based on a self-selected strategy is planned.",
+    "suggest" : "Find people with a nearly identical music taste and discover the favorite songs of your soulmates that you haven't heard yet."
   }
 }

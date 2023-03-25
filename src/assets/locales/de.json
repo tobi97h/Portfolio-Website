@@ -48,8 +48,12 @@
        "heading" : "Blogeinträge",
        "text" : "Mein Blog zu diversen Tech Problematiken."
      },
-    "commits" : "Summe aller meiner commits in open source Projekten",
-    "repos" : "Gesamte Anzahl meiner open source Repositories"
+    "commits" : "Summe aller meiner commits in open source repositories",
+    "repos" : "Gesamte Anzahl meiner open source repositories",
+    "linesOfCode" : {
+      "heading" : "Zeilen Quellcode",
+      "text" : "Gesamte Anzahl geschriebener Zeilen Code in open source repositories."
+}
   },
   "projects" : {
     "heading" : "Eigene Projekte",
