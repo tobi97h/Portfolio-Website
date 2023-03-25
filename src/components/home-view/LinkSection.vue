@@ -8,9 +8,6 @@ import statsApi from "@/services/StatsApi";
 
 const { t } = useI18n()
 
-// access ref with blogEntries.value
-const blogEntries: Ref<number> = ref(1)
-
 let stats: Stats = {
   ghostBlogEntries: 404,
   linesOfCode: 404,
