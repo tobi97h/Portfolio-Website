@@ -19,7 +19,7 @@ const { t } = useI18n()
             <a href="https://github.com/Asset-Rebalancing-Tool/ApiRunner" target="_blank" class="button">{{ $t('projects.source') }}</a>
           </div>
         </div>
-        <img class="art-wireframes" src="src/assets/images/Portfolio_Rebalancing_Tool_Wireframes.png" alt="Portfolio Rebalancing Tool Wireframes" />
+        <img class="art-wireframes" src="@/assets/images/Portfolio_Rebalancing_Tool_Wireframes.png" alt="Portfolio Rebalancing Tool Wireframes" />
       </div>
 
       <div class="project-wrapper sg">
@@ -31,7 +31,7 @@ const { t } = useI18n()
             <a href="https://github.com/Suggest-App/SGBackend" target="_blank" class="button">{{ $t('projects.source') }}</a>
           </div>
         </div>
-        <img class="sg-wireframes" src="src/assets/images/Suggest_App_Wireframes.png" alt="Suggest App Wireframes" />
+        <img class="sg-wireframes" src="@/assets/images/Suggest_App_Wireframes.png" alt="Suggest App Wireframes" />
       </div>
     </div>
   </section>
