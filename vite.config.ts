@@ -12,6 +12,15 @@ export default defineConfig({
     }
   },
 
+  server : {
+    proxy: {
+      '/stats': {
+        target: 'https://tobias-huebner.tech',
+        changeOrigin: true,
+        secure: false,
+      },
+    }
+  },
   css: {
     preprocessorOptions: {
       scss: {
