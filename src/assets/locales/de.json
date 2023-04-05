@@ -5,54 +5,54 @@
   },
   "hero" : {
     "heading" : "Backend & Infrastructure Senior",
-    "text" : "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leite ich kleinere Teams und unterstütze sie mit meinem Know-How. Ich bin versiert, aufgeschlossen und mir für nichts zu Schade. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation in alle Richtungen, erreicht man die gesteckten Ziele."
+    "text" : "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele."
   },
   "tech" : {
     "date" : "Stand: 2 März 2023",
     "heading" : "Programmiersprachen/Skills",
-    "java" : "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP, und für einen Asset Rebalancing Prototypen (fintech, Aktien).",
-    "cs" : "Businesslogiken und Utilities in einem industriellem Produktionsunternehmen, komplexe Web APIs im Finanz und Social Media Sektor.",
-    "go" : "Hauptsächlich benutzt für REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.",
+    "java" : "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP (Java Connector), und für einen Asset Rebalancing Prototypen (Spring Backend, Aktien/Wertgegenstände, siehe Projektsektion).",
+    "cs" : "Businesslogiken in einem industriellem Produktionsunternehmen (SAP Plugins, Reporting), Web APIs im Finanz und Social Media Sektor (ASP.NET, siehe Projektsektion).",
+    "go" : "In closed source Web APIs.",
     "sql" : {
       "heading" : "SQL (jede Art)",
-      "text" : "Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, als Grundlage für ORMs wie Hibernate und EFCore."
+      "text" : "Umfangreiche Auswertungen von Produktionsdaten in Form von Abfragen und Reporting, als Grundlage für ORMs wie Hibernate und EFCore, direkte SQL Scripts für Migrationen und Bugfixes."
     },
-    "python" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.",
-    "bash": "Defacto scripting language für alles was pipelines und deployments im Bereich Infrastruktur angeht. Umfassende Erfahrung mit Github, Bitbucket bishin zu on Premise Pipelines wie Drone."
+    "python" : "Scripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen, z.B. Setup einer Stage in einem Environment.",
+    "bash": "Grundlegende Scriptsprache die auf allen UNIX Systemen funktioniert und so ein muss für jeden, der im Bereich Infrastruktur arbeitet."
   },
   "frameworks" : {
-    "spring" : "Als basis für einen Asset Rebalancing Dienst im Finanz und als Micro Service zum Bereitstellen diverser Dienste zum Verarbeiten von Dokumenten.",
-    "asp" : "Benutzt für ein komplexes Backend einer fintech App, die sich auf das automatische Wechseln von Verträgen konzentriert.",
-    "javafx" : "Apps für Management in einem Industriebetrieb, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.",
-    "wpf" : "Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen existieren und dementsprechende Abhängigkeiten haben.",
-    "node" : "Für lightweight Webserver/APIs."
+    "spring" : "Als Backend für einen Asset Rebalancing Dienst im Finanzsektor (siehe Projektsektion) und als Micro Service API zum Verarbeiten von PDF-Dokumenten.",
+    "asp" : "Als Backend einer fintech App, die automatisierte Vertragserkennung und Wechsel betreibt. Als Backend der Social Media App Suggest (siehe Projektsektion).",
+    "javafx" : "Apps für die Managementebene eines Industriebetriebes, die detaillierte Steuerung des Materialwertschöpfungsprozesses ermöglichen.",
+    "wpf" : "(Wie JavaFX) In Projekten verwendet, die feste Abhängigkeiten zu windows only Treibern und Libraries haben.",
+    "node" : "Für lightweight Webserver/APIs (Statistiken über Anbindung von Dritten, CMS)."
   },
   "ops" : {
-    "docker" : "Um Test-, Build- und Deploymentprozesse zu automatisieren - Infrastructure as Code.",
-    "k8s" : "Bare metal und hosted cluster für grundlegende Firmeninfrastruktur.",
-    "terraform" : "Infrastructure as Code auf Ebene von Clouddiensten wie AWS, Azure und hosted Kubernetes Lösungen. Hauptsächlich Erfahrung mit dem AWS Provider."
+    "docker" : "Um Test-, Build- und Deploymentprozesse zu automatisieren, in Kombination mit CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
+    "k8s" : "Um skalierbare, ausfallsichere und zentralisierte Systeme für IT-Dienstleistungen bereitszustellen (bare metal und hosted).",
+    "terraform" : "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Erfahrung mit dem AWS Provider."
   },
   "softSkills" : {
     "writing" : {
       "heading" : "Schreiben",
-      "text" : "Neben dem Programmieren schreibe ich gerne alles von Essays bis hin zu Songtexten. Seine Ideen einfach und direkt ausdrücken zu können ist unbezahlbar."
+      "text" : "Neben dem Programmieren schreibe ich für mein Leben gerne. Seine Ideen klar und einfach ausdrücken zu können, ist unbezahlbar."
     },
     "didactics" : {
       "heading" : "Didaktik",
-      "text" : "Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können, sodass sie eigenständig in der Lage sind es anzuwenden, ist einer der leichtesten Wege den eigenen Wert zu erhöhen."
+      "text" : "Wissen ist die einzige Ressource, die unbegrenzt kopiert werden kann. Sein Wissen Anderen vermitteln zu können, ist einer der leichtesten Wege um die Produktivität zu steigern."
     },
-    "management" : "Gerade für unerfahrenere Entwickler ist eine vorrausschauende, erfahrungsgegründete Leitung essenziell, damit sie ihre Zeit sinnvoll nutzen können. In meinen Jahren als IT`ler habe ich stehts danach gestrebt über den Tellerand zu schauen und habe mir so etliches an fachübergreifendem Wissen angeignet."
+    "management" : "Auch wenn ich authoritäre Führungsstile komplett ablehne, musste ich in meiner Zeit als Programmierer lernen, wie ausschlaggebend Erfahrung ist. Nach zahllosen Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position, anderen diese Erkenntnisse mitteilen zu müssen."
   },
   "stats" : {
      "blog" : {
        "heading" : "Blogeinträge",
-       "text" : "Mein Blog zu diversen Tech Problematiken."
+       "text" : "Mein Blog, bestehend aus Know-How und Tutorials für diverse Setups."
      },
-    "commits" : "Summe aller meiner commits in open source repositories",
-    "repos" : "Gesamte Anzahl meiner open source repositories",
+    "commits" : "Summe meiner commits in open source repositories",
+    "repos" : "Anzahl meiner open source repositories",
     "linesOfCode" : {
       "heading" : "Zeilen Quellcode",
-      "text" : "Gesamte Anzahl geschriebener Zeilen Code in open source repositories."
+      "text" : "Geschriebene Zeilen Code in open source repositories."
 }
   },
   "projects" : {
