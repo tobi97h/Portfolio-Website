@@ -10,14 +10,14 @@
   "tech": {
     "date": "Stand: 2 März 2023",
     "heading": "Programmiersprachen/Skills",
-    "java": "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP (Java Connector), und für einen Asset Rebalancing Prototypen (Spring Backend, Aktien/Wertgegenstände, siehe Projektsektion).",
-    "cs": "Businesslogiken in einem industriellem Produktionsunternehmen (SAP Plugins, Reporting), Web APIs im Finanz und Social Media Sektor (ASP.NET, siehe Projektsektion).",
-    "go": "In closed source Web APIs.",
+    "java": "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP (Java Connector), und für einen Asset Rebalancing Prototypen (Spring Backend, Aktien/Wertgegenstände) (siehe Projektsektion).",
+    "cs": "Businesslogiken in einem industriellem Produktionsunternehmen (SAP Plugins, Reporting), Web APIs im Finanz und Social Media Sektor (ASP.NET) (siehe Projektsektion).",
+    "go": "In closed source Web APIs, zur Verarbeitung von Dokumenten.",
     "sql": {
       "heading": "SQL (jede Art)",
       "text": "Umfangreiche Auswertungen von Produktionsdaten in Form von Abfragen und Reporting, als Grundlage für ORMs wie Hibernate und EFCore, direkte SQL Scripts für Migrationen und Bugfixes."
     },
-    "python": "Scripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen, z.B. Setup einer Stage in einem Environment.",
+    "python": "Scripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen, z.B. Setup einer Stage in einem AWS Environment.",
     "bash": "Grundlegende Skriptsprache die auf allen UNIX Systemen funktioniert und so ein muss für jeden, der im Bereich Infrastruktur arbeitet."
   },
   "frameworks": {

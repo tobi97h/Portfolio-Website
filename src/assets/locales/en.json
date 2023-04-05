@@ -5,54 +5,54 @@
   },
   "hero" : {
     "heading" : "Backend & infrastructure senior",
-    "text" : "For more than 5 years I have been working in IT. In this time I developed a broad understanding of the IT world in general, as well as mastering core backend and infrastructure topics. This Know-How allows me to lead small teams to success. I am an open minded, ambitious guy that doesn't take himself too serious. I have no problem asking hard questions, since only brutal honestly leads to maintainable solutions."
+    "text" : "For more than 5 years I have been working in IT. In this time I focussed on mastering core backend and infrastructure concepts. This Know-How allows me to lead small teams, in these areas, to success. I am an open minded, ambitious guy that doesn't take himself too seriously. I also have no problem asking hard questions, since only brutal honesty leads to maintainable solutions."
   },
   "tech" : {
     "date" : "As of March 2nd 2023",
-    "heading" : "Programming languages / skills",
-    "java" : "Used writing and extending a MRP-System (=Material Requirements Planning), in connection with SAP. Also used for an asset rebalancing prototype (fintech, stocks).",
-    "cs" : "Business logic and utilities for a industrial manufacturing company, complex web APIs in finance and social media.",
-    "go" : "Used for high performing REST Services.",
+    "heading" : "Programming languages/skills",
+    "java" : "Used for extending SAP (an MRP-System - Material Requirements Planning, SAP Connector), as well as a custom made assistant for material disposition. Used for an asset rebalancing prototype (Spring backend, stocks/assets) (see project section).",
+    "cs" : "Business logic for an industrial manufacturing company (SAP plugins, reporting), Web APIs in finance and social media (ASP.NET) (see project section).",
+    "go" : "Used in closed source web APIs, for processing confidential documents.",
     "sql" : {
       "heading" : "SQL (any flavour)",
-      "text" : "Extensive reporting of operational data, as basis for ORMs like Hibernate and EFCore."
+      "text" : "Extensive reporting of operational data for an industrial manufacturing company. As well in ORMs like Hibernate and EFCore."
     },
-    "python" : "The swiss army knife of programming languages, mostly used for scripts and CLIs that assist and automate the development process.",
-    "bash": "Scripting language for everything regarding pipelines and deployments in infrastructure. Extensive knowledge with Github, Bitbucket and on premise solutions like Drone."
+    "python" : "Scripts and command line utilities that assist the development process, for example setting up a development stage within an AWS Environment.",
+    "bash": "The foundational scripting language of the linux world, a must know for anyone working in infrastructure."
   },
   "frameworks" : {
-    "spring" : "As foundation for an asset rebalancing service in finance and as a microservice that processes various kinds of documents.",
-    "asp" : "Backend of a fintech app, that deals with automatic periodic swapping of insurance and energy contracts.",
-    "javafx" : "Apps for management in an industrial manufacturing company, that help guide and control the material value-added process.",
-    "wpf" : "Same purpose as the JavaFx apps, just restricted to apps with hard dependencies on windows.",
-    "node" : "For lightweight APIs."
+    "spring" : "Used for the backend of an asset rebalancing service (see project section) and as a microservice that processes various kinds of PDFs.",
+    "asp" : "Used for the backend of a fintech app, that provides functionality for contract recognition and optimization. Also used for the backend of the social media app suggest (see project section).",
+    "javafx" : "Apps for management in an industrial manufacturing company, that enable detailed control of the material value-added process.",
+    "wpf" : "(Like JavaFx) Used in projects that have dependencies on windows only libraries and drivers.",
+    "node" : "For lightweight APIs (creating statistics from third party APIs, custom CMS)."
   },
   "ops" : {
-    "docker" : "For automating test, build and deployment processes - infrastructure as code.",
-    "k8s" : "Bare metal und hosted cluster, as basis for the entire company infrastructure.",
-    "terraform" : "Infrastructure as code at the level of cloud service providers like AWS, Azure and hosted Kubernetes clusters. Experience mostly regarding the AWS provider."
+    "docker" : "For automating test, build and deployment processes, using CI/CD services like Github Pipelines, Bitbucket Pipelines and Drone.",
+    "k8s" : "Providing scalable, failsafe and centralised systems for various kinds of IT-Services (bare metal and hosted).",
+    "terraform" : "Infrastructure as code at the level of cloud services like AWS, Azure and hosted kubernetes clusters. Experience with the AWS provider."
   },
   "softSkills" : {
     "writing" : {
       "heading" : "Writing",
-      "text" : "Besides code, I like to write essays and songs. To be able to convey ideas in a simple, yet elegant manner has proven invaluable to me."
+      "text" : "Besides code, I like to write a lot in my free time. To be able to convey ideas in a simple, yet elegant manner has proven invaluable to me."
     },
     "didactics" : {
       "heading" : "Didactics",
-      "text" : "Knowledge can be copied without any boundaries, the ability to teach others what you already know is one of the quickest ways to increase productivity."
+      "text" : "Knowledge can be copied without any limitations, the ability to teach others what you already know is one of the quickest ways to improve productivity."
     },
-    "management" : "Especially knew engineers need some guidance regarding the bigger picture, or they will waste their time going down dead end roads. In my years as an IT professional I have always striven to broaden my horizon, to understand what makes a good product and not just good code."
+    "management" : "Especially knew engineers need some guidance regarding the bigger picture, or they will waste their time going down dead end roads (as I did countless times in my career). Since I had my fair share of these monumental failures, I am now in the unlucky position of having to prevent this by sharing this knowledge."
   },
   "stats" : {
     "blog" : {
       "heading" : "Blog entries",
-      "text" : "My personal tech blog where I post on different topics regarding backend and infrastructure."
+      "text" : "My tech blog containing backend and infrastructure Know-How and tutorials."
     },
-    "commits" : "Total number of commits of all my open source repositories.",
-    "repos" : "Total number of my open source repositories.",
+    "commits" : "Total number of my commits (in open source repositories).",
+    "repos" : "Number of my open source repositories.",
     "linesOfCode" : {
       "heading" : "Lines of Code",
-      "text" : "Total number of written lines of open source code."
+      "text" : "Total lines of code I have written (in open source repositories)."
     }
   },
   "projects" : {
