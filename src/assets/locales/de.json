@@ -1,65 +1,65 @@
 {
-  "nav" : {
-    "about" : "Über mich",
-    "stack" : "Tech Stack"
+  "nav": {
+    "about": "Über mich",
+    "stack": "Tech Stack"
   },
-  "hero" : {
-    "heading" : "Backend & Infrastructure Senior",
-    "text" : "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele."
+  "hero": {
+    "heading": "Backend & Infrastructure Senior",
+    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele."
   },
-  "tech" : {
-    "date" : "Stand: 2 März 2023",
-    "heading" : "Programmiersprachen/Skills",
-    "java" : "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP (Java Connector), und für einen Asset Rebalancing Prototypen (Spring Backend, Aktien/Wertgegenstände, siehe Projektsektion).",
-    "cs" : "Businesslogiken in einem industriellem Produktionsunternehmen (SAP Plugins, Reporting), Web APIs im Finanz und Social Media Sektor (ASP.NET, siehe Projektsektion).",
-    "go" : "In closed source Web APIs.",
-    "sql" : {
-      "heading" : "SQL (jede Art)",
-      "text" : "Umfangreiche Auswertungen von Produktionsdaten in Form von Abfragen und Reporting, als Grundlage für ORMs wie Hibernate und EFCore, direkte SQL Scripts für Migrationen und Bugfixes."
+  "tech": {
+    "date": "Stand: 2 März 2023",
+    "heading": "Programmiersprachen/Skills",
+    "java": "Angewandt im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP (Java Connector), und für einen Asset Rebalancing Prototypen (Spring Backend, Aktien/Wertgegenstände, siehe Projektsektion).",
+    "cs": "Businesslogiken in einem industriellem Produktionsunternehmen (SAP Plugins, Reporting), Web APIs im Finanz und Social Media Sektor (ASP.NET, siehe Projektsektion).",
+    "go": "In closed source Web APIs.",
+    "sql": {
+      "heading": "SQL (jede Art)",
+      "text": "Umfangreiche Auswertungen von Produktionsdaten in Form von Abfragen und Reporting, als Grundlage für ORMs wie Hibernate und EFCore, direkte SQL Scripts für Migrationen und Bugfixes."
     },
-    "python" : "Scripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen, z.B. Setup einer Stage in einem Environment.",
-    "bash": "Grundlegende Scriptsprache die auf allen UNIX Systemen funktioniert und so ein muss für jeden, der im Bereich Infrastruktur arbeitet."
+    "python": "Scripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen, z.B. Setup einer Stage in einem Environment.",
+    "bash": "Grundlegende Skriptsprache die auf allen UNIX Systemen funktioniert und so ein muss für jeden, der im Bereich Infrastruktur arbeitet."
   },
-  "frameworks" : {
-    "spring" : "Als Backend für einen Asset Rebalancing Dienst im Finanzsektor (siehe Projektsektion) und als Micro Service API zum Verarbeiten von PDF-Dokumenten.",
-    "asp" : "Als Backend einer fintech App, die automatisierte Vertragserkennung und Wechsel betreibt. Als Backend der Social Media App Suggest (siehe Projektsektion).",
-    "javafx" : "Apps für die Managementebene eines Industriebetriebes, die detaillierte Steuerung des Materialwertschöpfungsprozesses ermöglichen.",
-    "wpf" : "(Wie JavaFX) In Projekten verwendet, die feste Abhängigkeiten zu windows only Treibern und Libraries haben.",
-    "node" : "Für lightweight Webserver/APIs (Statistiken über Anbindung von Dritten, CMS)."
+  "frameworks": {
+    "spring": "Als Backend für einen Asset Rebalancing Dienst im Finanzsektor (siehe Projektsektion) und als Micro Service API zum Verarbeiten von PDF-Dokumenten.",
+    "asp": "Als Backend einer fintech App, die automatisierte Vertragserkennung und Wechsel betreibt. Als Backend der Social Media App Suggest (siehe Projektsektion).",
+    "javafx": "Apps für die Managementebene eines Industriebetriebes, die detaillierte Steuerung des Materialwertschöpfungsprozesses ermöglichen.",
+    "wpf": "(Wie JavaFX) In Projekten verwendet, die feste Abhängigkeiten zu windows only Treibern und Libraries haben.",
+    "node": "Für lightweight Webserver/APIs (Statistiken über Anbindung von Dritten, CMS)."
   },
-  "ops" : {
-    "docker" : "Um Test-, Build- und Deploymentprozesse zu automatisieren, in Kombination mit CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
-    "k8s" : "Um skalierbare, ausfallsichere und zentralisierte Systeme für IT-Dienstleistungen bereitszustellen (bare metal und hosted).",
-    "terraform" : "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Erfahrung mit dem AWS Provider."
+  "ops": {
+    "docker": "Um Test-, Build- und Deploymentprozesse zu automatisieren, in Kombination mit CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
+    "k8s": "Um skalierbare, ausfallsichere und zentralisierte Systeme für IT-Dienstleistungen bereitzustellen (bare metal und hosted).",
+    "terraform": "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Erfahrung mit dem AWS Provider."
   },
-  "softSkills" : {
-    "writing" : {
-      "heading" : "Schreiben",
-      "text" : "Neben dem Programmieren schreibe ich für mein Leben gerne. Seine Ideen klar und einfach ausdrücken zu können, ist unbezahlbar."
+  "softSkills": {
+    "writing": {
+      "heading": "Schreiben",
+      "text": "Neben dem Programmieren schreibe ich für mein Leben gerne. Seine Ideen klar und einfach ausdrücken zu können, ist unbezahlbar."
     },
-    "didactics" : {
-      "heading" : "Didaktik",
-      "text" : "Wissen ist die einzige Ressource, die unbegrenzt kopiert werden kann. Sein Wissen Anderen vermitteln zu können, ist einer der leichtesten Wege um die Produktivität zu steigern."
+    "didactics": {
+      "heading": "Didaktik",
+      "text": "Wissen ist die einzige Ressource, die unbegrenzt kopiert werden kann. Sein Wissen Anderen vermitteln zu können, ist einer der leichtesten Wege um die Produktivität zu steigern."
     },
-    "management" : "Auch wenn ich authoritäre Führungsstile komplett ablehne, musste ich in meiner Zeit als Programmierer lernen, wie ausschlaggebend Erfahrung ist. Nach zahllosen Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position, anderen diese Erkenntnisse mitteilen zu müssen."
+    "management": "Auch wenn ich autoritäre Führungsstile komplett ablehne, musste ich in meiner Zeit als Programmierer lernen, wie ausschlaggebend Erfahrung ist. Nach zahllosen Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position, anderen diese Erkenntnisse mitteilen zu müssen."
   },
-  "stats" : {
-     "blog" : {
-       "heading" : "Blogeinträge",
-       "text" : "Mein Blog, bestehend aus Know-How und Tutorials für diverse Setups."
-     },
-    "commits" : "Summe meiner commits in open source repositories",
-    "repos" : "Anzahl meiner open source repositories",
-    "linesOfCode" : {
-      "heading" : "Zeilen Quellcode",
-      "text" : "Geschriebene Zeilen Code in open source repositories."
-}
+  "stats": {
+    "blog": {
+      "heading": "Blogeinträge",
+      "text": "Mein Blog, bestehend aus Know-How und Tutorials für diverse Setups."
+    },
+    "commits": "Summe meiner commits in open source repositories",
+    "repos": "Anzahl meiner open source repositories",
+    "linesOfCode": {
+      "heading": "Zeilen Quellcode",
+      "text": "Geschriebene Zeilen Code in open source repositories."
+    }
   },
-  "projects" : {
-    "heading" : "Eigene Projekte",
-    "homepage" : "Zur Live Version",
-    "source" : "Zum Quellcode",
-    "balancingTool" : "Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie. Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.",
-    "suggest" : "Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst. die du noch nicht kennst. Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingsongs deiner Seelenverwanden, die du noch nicht kennst."
+  "projects": {
+    "heading": "Eigene Projekte",
+    "homepage": "Zur Live Version",
+    "source": "Zum Quellcode",
+    "balancingTool": "Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.",
+    "suggest": "Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingssongs deiner Seelenverwandten, die du noch nicht kennst."
   }
 }
