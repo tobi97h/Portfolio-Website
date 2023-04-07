@@ -8,10 +8,17 @@ import statsApi from "@/services/StatsApi";
 
 const { t } = useI18n()
 
-let stats = reactive({} as Stats)
+const ghostBlogEntries: Ref<number> = ref(0);
+const commits: Ref<number> = ref(0);
+const linesOfCode: Ref<number> = ref(0);
+const repos: Ref<number> = ref(0);
 
 onMounted(async () => {
-  stats = await statsApi.fetchStats()
+  let stats = await statsApi.fetchStats()
+  ghostBlogEntries.value = stats.ghostBlogEntries
+  commits.value = stats.commits
+  linesOfCode.value = stats.linesOfCode
+  repos.value = stats.repos
 })
 
 </script>
@@ -22,7 +29,7 @@ onMounted(async () => {
       <div class="link-box-wrapper">
 
         <a href="#" class="link-box blog">
-          <h4>{{ stats.ghostBlogEntries }}</h4>
+          <h4>{{ ghostBlogEntries }}</h4>
           <div class="divider"></div>
           <h2>{{ $t('stats.blog.heading') }}</h2>
           <p>{{ $t('stats.blog.text') }}</p>
@@ -30,7 +37,7 @@ onMounted(async () => {
         </a>
 
         <a class="link-box git">
-          <h4>{{ stats.repos}}</h4>
+          <h4>{{ repos }}</h4>
           <div class="divider"></div>
           <h2>Git Repos</h2>
           <p>{{ $t("stats.repos") }}</p>
@@ -38,7 +45,7 @@ onMounted(async () => {
         </a>
 
         <a class="link-box git">
-          <h4>{{ stats.commits }}</h4>
+          <h4>{{ commits }}</h4>
           <div class="divider"></div>
           <h2>Git Commits</h2>
           <p>{{ $t("stats.commits") }}</p>
@@ -46,14 +53,12 @@ onMounted(async () => {
         </a>
 
         <a class="link-box git">
-          <h4>{{ stats.linesOfCode }}</h4>
+          <h4>{{ linesOfCode }}</h4>
           <div class="divider"></div>
           <h2>{{ $t("stats.linesOfCode.heading")}}</h2>
           <p>{{ $t("stats.linesOfCode.text") }}</p>
           <div class="arrow"></div>
         </a>
-
-
       </div>
     </div>
   </section>
