@@ -21,7 +21,7 @@ onMounted(async () => {
     <div class="container">
       <div class="link-box-wrapper">
 
-        <a href="#" class="link-box blog">
+        <a href="https://blog.tobias-huebner.tech/" class="link-box blog">
           <h4>{{ stats.ghostBlogEntries }}</h4>
           <div class="divider"></div>
           <h2>{{ $t('stats.blog.heading') }}</h2>
@@ -29,7 +29,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a class="link-box git">
+        <a href="https://github.com/tobi97h?tab=repositories" class="link-box git">
           <h4>{{ stats.repos}}</h4>
           <div class="divider"></div>
           <h2>Git Repos</h2>
@@ -37,7 +37,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a class="link-box git">
+        <a href="https://github.com/tobi97h"  class="link-box git">
           <h4>{{ stats.commits }}</h4>
           <div class="divider"></div>
           <h2>Git Commits</h2>
@@ -45,7 +45,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a class="link-box git">
+        <a href="https://github.com/tobi97h" class="link-box git">
           <h4>{{ stats.linesOfCode }}</h4>
           <div class="divider"></div>
           <h2>{{ $t("stats.linesOfCode.heading")}}</h2>
