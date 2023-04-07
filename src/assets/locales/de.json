@@ -5,7 +5,10 @@
   },
   "hero": {
     "heading": "Backend & Infrastructure Senior",
-    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele."
+    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele.",
+    "downloadBtnText": "Lebenslauf",
+    "fileName": "Lebenslauf",
+    "filePath": "path/to/file"
   },
   "tech": {
     "date": "Stand: 2 März 2023",
