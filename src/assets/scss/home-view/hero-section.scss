@@ -23,6 +23,28 @@
 
   .text-wrapper {
     width: 100%;
+
+    .button-wrapper {
+      max-width: 400px;
+      display: flex;
+      column-gap: 15px;
+      margin-top: 20px;
+
+      .button {
+        display: block;
+        padding: 12px 28px;
+        transition: 200ms ease-out;
+        color: #151b26;
+      }
+
+      .button:first-child {
+        background-color: #8d7498;
+      }
+
+      .button:first-child:hover {
+        background-color: #739A99;
+      }
+    }
   }
 }
 
