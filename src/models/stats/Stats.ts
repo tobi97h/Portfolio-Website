@@ -3,4 +3,5 @@ export interface Stats {
     commits: number,
     linesOfCode: number,
     repos: number,
+    executedBuilds: number
 }

@@ -56,7 +56,8 @@
     "linesOfCode" : {
       "heading" : "Lines of Code",
       "text" : "Total lines of code I have written (in open source repositories)."
-    }
+    },
+    "builds" : "Executed number of builds within my private Drone pipeline."
   },
   "projects" : {
     "heading" : "Personal Projects",

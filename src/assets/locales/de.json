@@ -56,7 +56,8 @@
     "linesOfCode": {
       "heading": "Zeilen Quellcode",
       "text": "Geschriebene Zeilen Code in open source repositories."
-    }
+    },
+    "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline."
   },
   "projects": {
     "heading": "Eigene Projekte",

@@ -12,6 +12,7 @@ const ghostBlogEntries: Ref<number> = ref(0);
 const commits: Ref<number> = ref(0);
 const linesOfCode: Ref<number> = ref(0);
 const repos: Ref<number> = ref(0);
+const builds: Ref<number> = ref(0);
 
 onMounted(async () => {
   let stats = await statsApi.fetchStats()
@@ -19,6 +20,7 @@ onMounted(async () => {
   commits.value = stats.commits
   linesOfCode.value = stats.linesOfCode
   repos.value = stats.repos
+  builds.value = stats.executedBuilds
 })
 
 </script>
@@ -60,6 +62,13 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
+        <a href="https://drone.tobias-huebner.tech" class="link-box git">
+          <h4>{{ builds }}</h4>
+          <div class="divider"></div>
+          <h2>Drone Pipelines</h2>
+          <p>{{ $t("stats.builds") }}</p>
+          <div class="arrow"></div>
+        </a>
 
       </div>
     </div>
