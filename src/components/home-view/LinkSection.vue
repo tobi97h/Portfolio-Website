@@ -62,7 +62,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a href="https://drone.tobias-huebner.tech" class="link-box git">
+        <a href="https://drone.tobias-huebner.tech" class="link-box drone">
           <h4>{{ builds }}</h4>
           <div class="divider"></div>
           <h2>Drone Pipelines</h2>
