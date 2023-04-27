@@ -33,6 +33,31 @@ const { t } = useI18n()
         </div>
         <img class="sg-wireframes" src="@/assets/images/Suggest_App_Wireframes.png" alt="Suggest App Wireframes" />
       </div>
+
+      <div class="link-box-wrapper">
+
+        <a href="https://blog.tobias-huebner.tech/" class="link-box minutes">
+          <h4>1000</h4>
+          <div class="divider"></div>
+          <h2>{{ $t('stats.blog.heading') }}</h2>
+          <p>{{ $t('stats.blog.text') }}</p>
+        </a>
+
+        <a href="https://github.com/tobi97h?tab=repositories" class="link-box minutes">
+          <h4>1000</h4>
+          <div class="divider"></div>
+          <h2>Git Repos</h2>
+          <p>{{ $t("stats.repos") }}</p>
+        </a>
+
+        <a href="https://github.com/tobi97h"  class="link-box minutes">
+          <h4>1000</h4>
+          <div class="divider"></div>
+          <h2>Git Commits</h2>
+          <p>1000</p>
+        </a>
+
+      </div>
     </div>
   </section>
 </template>
