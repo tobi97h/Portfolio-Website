@@ -47,6 +47,14 @@
     "management": "Auch wenn ich autoritäre Führungsstile komplett ablehne, musste ich in meiner Zeit als Programmierer lernen, wie ausschlaggebend Erfahrung ist. Nach zahllosen Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position, anderen diese Erkenntnisse mitteilen zu müssen."
   },
   "stats": {
+    "suggestUsers": {
+      "heading" : "Anzahl Nutzer",
+      "text": "Gesamte Anzahl der Nutzer unserer Suggest App."
+    },
+    "suggestMinutes": {
+      "heading":  "Erfasste Minuten",
+      "text": "Die App erfasst welche Songs wie lang gehört wurden."
+    },
     "blog": {
       "heading": "Blogeinträge",
       "text": "Mein Blog, bestehend aus Know-How und Tutorials für diverse Setups."

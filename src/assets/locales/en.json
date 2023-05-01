@@ -47,6 +47,14 @@
     "management" : "Especially knew engineers need some guidance regarding the bigger picture, or they will waste their time going down dead end roads (as I did countless times in my career). Since I had my fair share of these monumental failures, I am now in the unlucky position of having to prevent this by sharing this knowledge."
   },
   "stats" : {
+    "suggestUsers": {
+      "heading" : "User count",
+      "text": "Total users of the app."
+    },
+    "suggestMinutes": {
+      "heading":  "Tracked minutes",
+      "text": "The app tracks what the user listened to and for how long."
+    },
     "blog" : {
       "heading" : "Blog entries",
       "text" : "My tech blog containing backend and infrastructure Know-How and tutorials."

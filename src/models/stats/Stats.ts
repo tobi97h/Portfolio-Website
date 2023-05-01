@@ -3,5 +3,7 @@ export interface Stats {
     commits: number,
     linesOfCode: number,
     repos: number,
-    executedBuilds: number
+    executedBuilds: number,
+    suggestMinutes: number,
+    suggestUsers: number,
 }
