@@ -5,7 +5,7 @@
   },
   "hero": {
     "heading": "Backend & Infrastructure Senior",
-    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Bisher leitete und unterstütze ich kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele.",
+    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Ich leite und unterstütze kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele.",
     "downloadBtnText": "Lebenslauf",
     "fileName": "Lebenslauf",
     "filePath": "Lebenslauf.pdf"
@@ -31,20 +31,20 @@
     "node": "Für lightweight Webserver/APIs (Statistiken über Anbindung von Dritten, CMS)."
   },
   "ops": {
-    "docker": "Um Test-, Build- und Deploymentprozesse zu automatisieren, in Kombination mit CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
+    "docker": "Um Test-, Build- und Deploymentprozesse zu automatisieren, in CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
     "k8s": "Um skalierbare, ausfallsichere und zentralisierte Systeme für IT-Dienstleistungen bereitzustellen (bare metal und hosted).",
-    "terraform": "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Erfahrung mit dem AWS Provider."
+    "terraform": "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Am meisten Erfahrung mit dem AWS Provider."
   },
   "softSkills": {
     "writing": {
       "heading": "Schreiben",
-      "text": "Neben dem Programmieren schreibe ich für mein Leben gerne. Seine Ideen klar und einfach ausdrücken zu können, ist unbezahlbar."
+      "text": "Neben dem Programmieren schreibe ich gerne, vor allem Essays und Gedichte. Seine Ideen klar und einfach ausdrücken zu können, ist unbezahlbar."
     },
     "didactics": {
       "heading": "Didaktik",
-      "text": "Wissen ist die einzige Ressource, die unbegrenzt kopiert werden kann. Sein Wissen Anderen vermitteln zu können, ist einer der leichtesten Wege um die Produktivität zu steigern."
+      "text": "Wissen ist die ein zigste Ressource, die unbegrenzt kopiert werden kann. Sein Wissen Anderen vermitteln zu können, ist einer der leichtesten Wege um die allgemeine Produktivität zu steigern."
     },
-    "management": "Auch wenn ich autoritäre Führungsstile komplett ablehne, musste ich in meiner Zeit als Programmierer lernen, wie ausschlaggebend Erfahrung ist. Nach zahllosen Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position, anderen diese Erkenntnisse mitteilen zu müssen."
+    "management": "Ab einer bestimmten Projektgrösse, ist gutes Management, Planung und Erfahrung wichtig um ans Ziel zu kommen. Nach zahllosen Tips und Ratschlägen die ich mir von meinen Leads gefallen lassen musste, bin nun auch ich in der leidlichen Position das Selbe tun zu müsssen."
   },
   "stats": {
     "suggestUsers": {
@@ -65,7 +65,7 @@
       "heading": "Zeilen Quellcode",
       "text": "Geschriebene Zeilen Code in open source repositories."
     },
-    "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline."
+    "builds" : "Ausgeführte Builds meiner eigenen privaten Drone Pipeline."
   },
   "projects": {
     "heading": "Eigene Projekte",

@@ -21,7 +21,7 @@ onMounted(async () => {
   <section id="project-section">
     <div class="container">
 
-      <p class="subheading">Eigne Projekte</p>
+      <p class="subheading">{{ $t('projects.heading') }}</p>
       <div class="divider"></div>
 
       <div class="project-wrapper art">
