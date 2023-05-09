@@ -5,7 +5,7 @@
   },
   "hero": {
     "heading": "Backend & Infrastructure Senior",
-    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Ich leite und unterstütze kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen und nehme mich nicht zu Ernst. Ich gehe gerne auf Leute zu, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele.",
+    "text": "Seit etwas mehr als 5 Jahren bin ich in der IT tätig. Mittlerweile habe ich eine entsprechende Bandbreite, fühle mich jedoch in den Bereichen Backend und Infrastruktur am meisten Zuhause. Ich leite und unterstütze kleinere Teams mit meinem Know-How. Ich bin versiert, aufgeschlossen, nehme mich nicht zu Ernst, bin kritikfähig und spreche auch unangenehme Themen mit professioneller Vorsicht an. Nur durch direkte Kommunikation zwischen allen Ebenen, erreicht man die gesteckten Ziele.",
     "downloadBtnText": "Lebenslauf",
     "fileName": "Lebenslauf",
     "filePath": "Lebenslauf.pdf"
@@ -53,25 +53,25 @@
     },
     "suggestMinutes": {
       "heading":  "Erfasste Minuten",
-      "text": "Die App erfasst welche Songs wie lang gehört wurden."
+      "text": "Die App erfasst von allen Nutzern, welche Songs wie lang gehört wurden."
     },
     "blog": {
       "heading": "Blogeinträge",
-      "text": "Mein Blog, bestehend aus Know-How und Tutorials für diverse Setups."
+      "text": "Mein Blog, bestehend aus destilliertem Know-How und Tutorials für diverse Setups."
     },
     "commits": "Summe meiner commits in open source repositories",
-    "repos": "Anzahl meiner open source repositories",
+    "repos": "Anzahl meiner open source repositories.",
     "linesOfCode": {
       "heading": "Zeilen Quellcode",
       "text": "Geschriebene Zeilen Code in open source repositories."
     },
-    "builds" : "Ausgeführte Builds meiner eigenen privaten Drone Pipeline."
+    "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline."
   },
   "projects": {
     "heading": "Eigene Projekte",
     "homepage": "Zur Live Version",
     "source": "Zum Quellcode",
-    "balancingTool": "Mit unserer App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.",
-    "suggest": "Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke die Lieblingssongs deiner Seelenverwandten, die du noch nicht kennst."
+    "balancingTool": "Mit dieser App können Sie Ihre Vermögenswerte einfach und vollumfänglich abbilden. Geplant ist eine automatisierte Wiederherstellung ihrer Vermögensverteilung anhand einer selbst gewählten Strategie.",
+    "suggest": "Finde Menschen mit einem nahezu identischem Musikgeschmack und entdecke dir unbekannte Lieblingssongs deiner Seelenverwandten."
   }
 }

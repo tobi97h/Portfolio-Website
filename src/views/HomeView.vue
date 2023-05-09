@@ -7,7 +7,7 @@ import RebalancingTool from "@/components/home-view/RebalancingTool.vue";
 
 <template>
   <HeroSection />
-  <TechSection />
   <RebalancingTool />
   <LinkSection />
+  <TechSection />
 </template>
