@@ -141,6 +141,10 @@
         opacity: 0.15;
       }
 
+      .link-box.user::before {
+        background-image: url("data:image/svg+xml,%3Csvg width='418' height='484' viewBox='0 0 418 484' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='209' cy='124' r='110.5' stroke='%23739A99' stroke-width='27'/%3E%3Cpath d='M403 468.5H15C18.6667 416.167 63.3 311.5 212.5 311.5C361.7 311.5 401.667 416.167 403 468.5Z' stroke='%23739A99' stroke-width='30' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        background-size: 105px;
+      }
       .link-box.minutes::before {
         background-image: url("data:image/svg+xml,%3Csvg width='503' height='503' viewBox='0 0 503 503' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M251.5 503C390.4 503 503 390.4 503 251.5C503 112.6 390.4 0 251.5 0C112.6 0 0 112.6 0 251.5C0 390.4 112.6 503 251.5 503ZM251.5 473C373.831 473 473 373.831 473 251.5C473 129.169 373.831 30 251.5 30C129.169 30 30 129.169 30 251.5C30 373.831 129.169 473 251.5 473Z' fill='%23739A99'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M242 128C233.716 128 227 134.716 227 143V274C227 278.234 228.754 282.058 231.576 284.786C232.553 285.821 233.694 286.733 234.99 287.481L348.439 352.981C355.614 357.123 364.788 354.665 368.93 347.49C373.072 340.316 370.614 331.142 363.439 327L257 265.547V143C257 134.716 250.284 128 242 128Z' fill='%23739A99'/%3E%3C/svg%3E%0A");
       }

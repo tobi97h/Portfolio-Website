@@ -50,7 +50,7 @@ onMounted(async () => {
 
       <div class="link-box-wrapper">
 
-        <a href="https://blog.tobias-huebner.tech/" class="link-box minutes">
+        <a href="https://blog.tobias-huebner.tech/" class="link-box user">
           <h4>{{ suggestUsers }}</h4>
           <div class="divider"></div>
           <h2>{{ $t('stats.suggestUsers.heading') }}</h2>
