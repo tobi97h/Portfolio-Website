@@ -12,9 +12,6 @@ const { t } = useI18n()
       <div class="text-wrapper">
         <h1>{{ $t('hero.heading') }}</h1>
         <p>{{ $t('hero.text') }}</p>
-        <div class="button-wrapper">
-          <a :href="$t('hero.filePath')" :download="$t('hero.fileName')" class="button">{{ $t('hero.downloadBtnText') }}</a>
-        </div>
       </div>
     </div>
   </section>
