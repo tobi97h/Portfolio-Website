@@ -65,7 +65,11 @@
       "heading" : "Lines of Code",
       "text" : "Total lines of code I have written (in open source repositories)."
     },
-    "builds" : "Executed number of builds within my private Drone pipeline."
+    "builds" : "Executed number of builds within my private Drone pipeline.",
+    "api": {
+      "text": "Live Git API",
+      "link": "git repository"
+    }
   },
   "projects" : {
     "heading" : "Personal Projects",

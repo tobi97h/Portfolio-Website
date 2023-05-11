@@ -54,7 +54,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a href="https://github.com/tobi97h" class="link-box git">
+        <a href="https://github.com/tobi97h" class="link-box code">
           <h4>{{ linesOfCode }}</h4>
           <div class="divider"></div>
           <h2>{{ $t("stats.linesOfCode.heading")}}</h2>
@@ -69,8 +69,8 @@ onMounted(async () => {
           <p>{{ $t("stats.builds") }}</p>
           <div class="arrow"></div>
         </a>
-
       </div>
+      <p>{{ $t("stats.api.text") }} <a href="">{{ $t("stats.api.link") }}</a></p>
     </div>
   </section>
 </template>

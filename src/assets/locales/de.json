@@ -65,7 +65,11 @@
       "heading": "Zeilen Quellcode",
       "text": "Geschriebene Zeilen Code in open source repositories."
     },
-    "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline."
+    "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline.",
+    "api": {
+      "text": "Live Git API",
+      "link": "git repository"
+    }
   },
   "projects": {
     "heading": "Eigene Projekte",
