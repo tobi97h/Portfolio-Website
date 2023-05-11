@@ -67,8 +67,8 @@
     },
     "builds" : "Ausgeführte Builds meiner privaten Drone Pipeline.",
     "api": {
-      "text": "Live Git API",
-      "link": "git repository"
+      "text": "Werte bereitgestellt durch: ",
+      "link": "PortfolioApi"
     }
   },
   "projects": {

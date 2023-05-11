@@ -70,7 +70,7 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
       </div>
-      <p>{{ $t("stats.api.text") }} <a href="">{{ $t("stats.api.link") }}</a></p>
+      <p>{{ $t("stats.api.text") }} <a href="https://github.com/tobi97h/Portfolio-Website-Api">{{ $t("stats.api.link") }}</a></p>
     </div>
   </section>
 </template>
