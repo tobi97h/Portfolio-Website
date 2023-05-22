@@ -47,7 +47,7 @@ const techStack: ComputedRef<Tech[]> = computed(() => {
       id: 6,
       title: 'Bash',
       text: t("tech.bash"),
-      percentage: 80
+      percentage: 65
     }
   ]
 })
@@ -58,25 +58,25 @@ const frameworks: ComputedRef<Framework[]> = computed(() => {
       id: 1,
       title: 'Spring',
       text: t("frameworks.spring"),
-      percentage: 85
+      percentage: 75
     },
     {
       id: 2,
       title: 'ASP.NET Core',
       text: t("frameworks.asp"),
-      percentage: 85
+      percentage: 90
     },
     {
       id: 3,
       title: 'JavaFx',
       text: t("frameworks.javafx"),
-      percentage: 70
+      percentage: 65
     },
     {
       id: 4,
       title: 'WPF',
       text: t("frameworks.wpf"),
-      percentage: 80
+      percentage: 60
     },
     {
       id: 5,
@@ -99,13 +99,13 @@ const devOps: ComputedRef<DevOps[]> = computed(() => {
       id: 2,
       title: 'Kubernetes',
       text: t("ops.k8s"),
-      percentage: 50
+      percentage: 40
     },
     {
       id: 3,
       title: 'Terraform (Terragrunt)',
       text: t("ops.terraform"),
-      percentage: 40
+      percentage: 35
     }
   ]
 })
