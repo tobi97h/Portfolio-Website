@@ -12,7 +12,7 @@
     "filePath": "CV.pdf"
   },
   "tech" : {
-    "date" : "As of March 2nd 2023",
+    "date" : "As of May 20th 2023",
     "heading" : "Programming languages/skills",
     "java" : "Used for extending SAP (an MRP-System - Material Requirements Planning, SAP Connector), as well as a custom made assistant for material disposition. Used for an asset rebalancing prototype (Spring backend, stocks/assets) (see project section).",
     "cs" : "Business logic for an industrial manufacturing company (SAP plugins, reporting), Web APIs in finance and social media (ASP.NET) (see project section).",
