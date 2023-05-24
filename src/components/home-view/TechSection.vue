@@ -103,7 +103,7 @@ const devOps: ComputedRef<DevOps[]> = computed(() => {
     },
     {
       id: 3,
-      title: 'Terraform (Terragrunt)',
+      title: 'Terraform',
       text: t("ops.terraform"),
       percentage: 35
     }
