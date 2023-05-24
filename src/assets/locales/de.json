@@ -31,7 +31,7 @@
     "node": "Für lightweight Webserver/APIs (Statistiken über Anbindung von Dritten, CMS)."
   },
   "ops": {
-    "docker": "Um Test-, Build- und Deploymentprozesse zu automatisieren, in CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone.",
+    "docker": "Als Schlüsseltechnologie für Microservices, als Grundlage in CI/CD Diensten wie Github Pipelines, Bitbucket Pipelines und Drone",
     "k8s": "Um ausfallsichere und zentralisierte Systeme für IT-Dienstleistungen bereitzustellen (bare metal und hosted).",
     "terraform": "Infrastructure as Code auf Ebene von Clouddienstleistern wie AWS, Azure und hosted Kubernetes. Am meisten Erfahrung mit dem AWS Provider."
   },
