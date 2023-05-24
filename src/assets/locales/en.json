@@ -31,7 +31,7 @@
     "node" : "For lightweight APIs (creating statistics from third party APIs, custom CMS)."
   },
   "ops" : {
-    "docker" : "The key technology for creating microservices, as the basis for CI/CD services like Github Pipelines, Bitbucket Pipelines and Drone",
+    "docker" : "The key technology for creating microservices, as the basis for CI/CD services like Github Pipelines, Bitbucket Pipelines and Drone.",
     "k8s" : "Providing failsafe and centralised systems for various kinds of IT-Services (bare metal and hosted).",
     "terraform" : "Infrastructure as code at the level of cloud services like AWS, Azure and hosted kubernetes clusters. Experience with the AWS provider."
   },
