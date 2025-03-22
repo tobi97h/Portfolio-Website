@@ -12,8 +12,8 @@ type Locales = 'de' | 'en'
 export const i18n = createI18n({
   legacy: false,
   globalInjection: true,
-  locale: 'de',
-  fallbackLocale: 'de',
+  locale: 'en',
+  fallbackLocale: 'en',
   messages: {
     en: en,
     de: de,

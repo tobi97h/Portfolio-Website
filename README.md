@@ -44,3 +44,12 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## deploy
+
+```bash
+
+docker build . -t harbor.tobias-huebner.tech/th/homepage-frontend:latest
+docker push harbor.tobias-huebner.tech/th/homepage-frontend:latest
+
+```

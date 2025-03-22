@@ -4,24 +4,33 @@
     "stack" : "Tech stack"
   },
   "hero" : {
-    "heading" : "Senior Backend Developer and Cloud Engineer at VMZ Berlin",
-    "text" : "For more than five years I have been working in IT. I started out with just Backend and am coding with enthusiasm to this day, however I only rarely encounter new things to learn, which is a little bit sad. With Infrastructure I only started about three years ago. I understand and can apply core principles fluently, but I am still constantly expanding my skillset here. I am an open minded guy, who doesn't take himself too seriously. During my time in this nerve wrecking environment I learned to stay calm under pressure.",
-    "downloadBtnText": "Lebenslauf",
-    "fileName": "Download CV",
-    "filePath": "CV.pdf"
+    "heading" : "Platform Engineer at VMZ Berlin",
+    "text" : "For almost 7 years I have been working in IT. I started out with just Backend, slowly made my way into Infrastructure and from there went into full blown Platform Engineering. I thoroughly enjoy creating highly optimized systems, squeezing every bit of performance out of existing hardware."
+  },
+  "ops" : {
+    "kubernetes" : "Kubernetes is a foundational technology, that serves as a platform for any high level deployment you might imagine.",
+    "aws" : "Whenever you need true High Availability for fullfilling SLAs, a cloud computing giant like AWS is the best choice.",
+    "proxmox" : "AWS & Co come with a hefty price in exchange for their reliability and vast array of integrated services. Any non produciton workload is much cheaper self hosted.",
+    "ceph": "To run any form of container / vm orchestration, you need a distributed filesystem. AWS has EBS and for onprem solutions there is but one true king - Ceph. We use it to provide disks for vms and persistent volumes in kubernetes, it also comes with a network filesystem and s3 block storage.",
+    "vms": "Virtualization is key in seperating workloads from spefic hosts, enabeling scalability and high availability. Tools like Docker, CRI-O, LXCs or QEMU provide different depths of virtualization for your specific needs.",
+    "gitlab": "Gitlab contains almost everything a development team needs in terms of writing code, producing artifacts and defining deployments. Pipeline technology transforms the work of developers into a living, breating thing."
   },
   "tech" : {
-    "date" : "As of May 20th 2023",
-    "heading" : "Programming languages/skills",
+    "date" : "As of March 2025",
+    "heading" : "Inventory of accuired skills",
+    "tf": "Terraform transforms high level infrastructure into code. Gone are the days of getting lost in obscure UIs, with terraform you build and configure infrastrucutre in a consistent format.",
+    "helm": "Kubernetes package manager that is uniformly adapted and has become a standard in the industry. Whenever you want to ship a product of your own or want to self host a service from the market, Helm is most likely the answer.",
     "java" : "Used for extending SAP (an MRP-System - Material Requirements Planning, SAP Connector), as well as a custom made assistant for material disposition. Used for an asset rebalancing prototype (Spring backend, stocks/assets) (see project section).",
-    "cs" : "Business logic for an industrial manufacturing company (SAP plugins, reporting), Web APIs in finance and social media (ASP.NET) (see project section).",
-    "go" : "Used in closed source web APIs, for processing confidential documents.",
+    "cs" : "I used it primarly for writing business logic of an industrial manufacturing company (SAP plugins, reporting), Web APIs in finance and social media (ASP.NET).",
+    "go" : "Go is the new king of Layer 7, used by everybody for modern http related projects. It has outstanding concurrency and is the basis for Kubernetes, Terraform and many more. If you want to truly max out the use of terraform, you need Go to write custom providers.",
+    "ansible": "If Terraform is the Hydra of Infrastructure, Ansbile without a doubt is the Leviathan. It reaches to places Terraform simply can't due to its API-bound nature. Ansible is raw linux, dirty bash scripting and ssh tunnels. With it we create everything terraform needs to even come into existence.",
+    "flask": "When writing infrastructure services or k8s extensions like admission controllers that are accessible via HTTP, Python still is the best canditate. We use python in a lot of these cases, because the most valuable resource we need to optimize is not CPU or RAM, but developer time.",
     "sql" : {
       "heading" : "SQL (any flavour)",
       "text" : "Extensive reporting of operational data for an industrial manufacturing company. As well in ORMs like Hibernate and EFCore."
     },
-    "python" : "Scripts and command line utilities that assist the development process, for example setting up a development stage within an AWS Environment.",
-    "bash": "The foundational scripting language of the linux world, a must know for anyone working in infrastructure."
+    "python" : "Eventhough Ansible operates at such a low level, it is still primarly written and extended in python. That is because it mainly interacts with CLIs and the filesystem, making the 'slow but easy to write' Python the perfect candidate.",
+    "bash": "Bash scripting is fundational for CI/CD Pipelines, for writing Ansible Playbooks, custom CLIs and many more. Without it its impossible to work with linux effectively."
   },
   "frameworks" : {
     "spring" : "Used for the backend of an asset rebalancing service (see project section) and as a microservice that processes various kinds of PDFs.",
@@ -30,11 +39,7 @@
     "wpf" : "(Like JavaFx) Used in projects that have dependencies on windows only libraries and drivers.",
     "node" : "For lightweight APIs (creating statistics from third party APIs, custom CMS)."
   },
-  "ops" : {
-    "docker" : "The key technology for creating microservices, as the basis for CI/CD services like Github Pipelines, Bitbucket Pipelines and Drone.",
-    "k8s" : "Providing failsafe and centralised systems for various kinds of IT-Services (bare metal and hosted).",
-    "terraform" : "Infrastructure as code at the level of cloud services like AWS, Azure and hosted kubernetes clusters. Experience with the AWS provider."
-  },
+
   "softSkills" : {
     "writing" : {
       "heading" : "Writing",
