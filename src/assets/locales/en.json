@@ -30,14 +30,21 @@
       "text" : "Extensive reporting of operational data for an industrial manufacturing company. As well in ORMs like Hibernate and EFCore."
     },
     "python" : "Eventhough Ansible operates at such a low level, it is still primarly written and extended in python. That is because it mainly interacts with CLIs and the filesystem, making the 'slow but easy to write' Python the perfect candidate.",
-    "bash": "Bash scripting is fundational for CI/CD Pipelines, for writing Ansible Playbooks, custom CLIs and many more. Without it its impossible to work with linux effectively."
+    "bash": "Bash scripting is fundational for CI/CD Pipelines, for writing Ansible Playbooks, custom CLIs and many more. Without it its impossible to work with linux effectively.",
+    "asp" : "Used for the backend of a fintech app, that provides functionality for contract recognition and optimization. Also used for the backend of several personal projects."
   },
   "frameworks" : {
-    "spring" : "Used for the backend of an asset rebalancing service (see project section) and as a microservice that processes various kinds of PDFs.",
-    "asp" : "Used for the backend of a fintech app, that provides functionality for contract recognition and optimization. Also used for the backend of the social media app suggest (see project section).",
-    "javafx" : "Apps for management in an industrial manufacturing company, that enable detailed control of the material value-added process.",
-    "wpf" : "(Like JavaFx) Used in projects that have dependencies on windows only libraries and drivers.",
-    "node" : "For lightweight APIs (creating statistics from third party APIs, custom CMS)."
+    "linux-services" : "Working with Linux requires knowledge of native services like systemd, cron, netplan, aswell as more generic services like nginx, bind9, isc kea dhcp. It is also important to be able to debug processes, networks and filesystems. Understanding block devices, mounts and the fundamentals of the kernel are a necessity.",
+    "linux-networking": "To create a good platforms you need efficient communication, for which linux also provides native toolings. Configuring interfaces, creating bonds and bridges, setting routes are all critical skills.",
+    "keycloak" : "Authentication and authorization is a central question in any platform. Keycloak is the most common self hosted identity provider, allowing professional user management aswell as creating sso via oidc for all of your services.",
+    "vault" : "Another central question is how secrets, like logins, passwords and cryptographic keys are handled. Hashicorp vault provides a nice user interface, OIDC support aswell as everything you could need for automation.",
+    "artifactories" : "If you are a company that produces digital products, your code always ends up producing some kind of artifact. To then use these artifacts in deployments, you need an artifactory like Nexus, JFrog, AWS ECR or Harbor. These artifcatories can get quite big and require professional management.",
+    "argo": "Creating artifacts is one thing, deploying them and monitoring them another. ArgoCD is one of the current platforms that serve as a link between the developers and the administrators. With this platform developers get closer to the infrastructure and the deployment of their products, while still leaving the administrators in control.",
+    "s3": "Whenever we need to store or receive files via api calls, S3 object store is the defacto industry standard. It originated from AWS but its protocol was adopted by many different providers such as Minio, SeaweedFS, Ceph and Google Cloud. Being able to provide this storage for applications onpremises and in the cloud has become critical for any platform.",
+    "prom": "When creating vast platforms, things can quickly get overwhelming. You cannot keep an eye on every service, machine and deployment any longer. To make your site reliable you need a system that detects problems early and get alerted instanly. The widely adopted Prometheus Metric format, in combination with alertmanager and grafana, allows you to keep a birds eye view of your platform. You can detect problems early and get notifications if something is about to explode or already has.",
+    "elk": "Being notified when something is going wrong and figuring out in detail why it is going wrong are two different things. The ELK stack (Elasticsearch, Kibana) is one of the most common ways to tackle the latter problem. In this stack we bundle all system logs, be it from deployments, machines or services, making use of Elasticsearches great indexing capabilities to analyze in depth what happened.",
+    "vpn": "Exposing things to the world wide web always has some risk to it, which is why we keep as much as possible inside our company networks. To allow our employees aswell as third parties controlled access to our networks we use virtual private networks like OpenVPN or Wireguard.",
+    "certs": "Keeping traffic inside our networks and when communicating via the www secure is an important topic. The foundation of tls certificates is X.509, a standard which every platform engineer needs to be familiar with."
   },
 
   "softSkills" : {

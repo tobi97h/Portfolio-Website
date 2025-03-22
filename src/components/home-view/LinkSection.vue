@@ -30,14 +30,6 @@ onMounted(async () => {
     <div class="container">
       <div class="link-box-wrapper">
 
-        <a href="https://blog.tobias-huebner.tech/" class="link-box blog">
-          <h4>{{ ghostBlogEntries }}</h4>
-          <div class="divider"></div>
-          <h2>{{ $t('stats.blog.heading') }}</h2>
-          <p>{{ $t('stats.blog.text') }}</p>
-          <div class="arrow"></div>
-        </a>
-
         <a href="https://github.com/tobi97h?tab=repositories" class="link-box git">
           <h4>{{ repos}}</h4>
           <div class="divider"></div>
@@ -54,21 +46,6 @@ onMounted(async () => {
           <div class="arrow"></div>
         </a>
 
-        <a href="https://github.com/tobi97h" class="link-box code">
-          <h4>{{ linesOfCode }}</h4>
-          <div class="divider"></div>
-          <h2>{{ $t("stats.linesOfCode.heading")}}</h2>
-          <p>{{ $t("stats.linesOfCode.text") }}</p>
-          <div class="arrow"></div>
-        </a>
-
-        <a href="https://drone.tobias-huebner.tech" class="link-box drone">
-          <h4>{{ builds }}</h4>
-          <div class="divider"></div>
-          <h2>Drone Pipelines</h2>
-          <p>{{ $t("stats.builds") }}</p>
-          <div class="arrow"></div>
-        </a>
       </div>
       <p>{{ $t("stats.api.text") }} <a href="https://github.com/tobi97h/Portfolio-Website-Api">{{ $t("stats.api.link") }}</a></p>
     </div>

@@ -121,12 +121,6 @@ const techStack: ComputedRef<Tech[]> = computed(() => {
       percentage: 75
     },
     {
-      id: 11,
-      title: 'Spring',
-      text: t("tech.spring"),
-      percentage: 70
-    },
-    {
       id: 12,
       title: t("tech.sql.heading"),
       text: t("tech.sql.text"),
@@ -200,7 +194,7 @@ const frameworks: ComputedRef<Framework[]> = computed(() => {
     },
     {
       id: 11,
-      title: 'Certificates',
+      title: 'Certificates (TLS)',
       text: t("frameworks.certs"),
       percentage: 50
     },
