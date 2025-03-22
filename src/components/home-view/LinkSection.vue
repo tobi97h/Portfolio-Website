@@ -16,11 +16,8 @@ const builds: Ref<number> = ref(0);
 
 onMounted(async () => {
   let stats = await statsApi.fetchStats()
-  ghostBlogEntries.value = stats.ghostBlogEntries
   commits.value = stats.commits
-  linesOfCode.value = stats.linesOfCode
   repos.value = stats.repos
-  builds.value = stats.executedBuilds
 })
 
 </script>

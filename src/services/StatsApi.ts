@@ -5,7 +5,7 @@ import type { AxiosResponse } from "axios";
 export default {
     fetchStats(): Promise<Stats> {
         return axios
-            .get('/stats/stats')
+            .get('/stats')
             .then((response: AxiosResponse) => response.data as Stats)
     }
 }
